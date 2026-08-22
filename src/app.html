@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>CognitiveOS — Personal Adaptive Learning Intelligence</title>
+		<meta name="description" content="AI-powered Personal Adaptive Learning OS that understands your evolving knowledge state and delivers continuous personalized learning." />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+		<script>
+			try {
+				const theme = localStorage.getItem('cognitiveos-theme');
+				const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				if (theme === 'dark' || (!theme && supportDarkMode) || (theme === 'system' && supportDarkMode)) {
+					document.documentElement.classList.add('dark');
+					document.documentElement.setAttribute('data-theme', 'dark');
+					document.documentElement.style.colorScheme = 'dark';
+				} else {
+					document.documentElement.classList.remove('dark');
+					document.documentElement.setAttribute('data-theme', 'light');
+					document.documentElement.style.colorScheme = 'light';
+				}
+			} catch (e) {}
+		</script>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-[#f8f8f7] text-[#111111] dark:bg-[#090a0b] dark:text-zinc-100 min-h-screen antialiased selection:bg-orange-500/30 selection:text-orange-200 transition-colors duration-150">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

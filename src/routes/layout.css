@@ -1,0 +1,277 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+	:root {
+		--font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		--font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+		--font-mono: 'JetBrains Mono', monospace;
+
+		/* Design.md Core Color Tokens */
+		--color-figma-primary: #000000;
+		--color-figma-on-primary: #ffffff;
+		--color-figma-ink: #000000;
+		--color-figma-canvas: #ffffff;
+		--color-figma-inverse-canvas: #000000;
+		--color-figma-inverse-ink: #ffffff;
+		--color-figma-surface-soft: #f7f7f5;
+		--color-figma-hairline: #e6e6e6;
+		--color-figma-hairline-soft: #f1f1f1;
+
+		/* Design.md Hand-Cut Pastel Color Blocks */
+		--color-block-lime: #dceeb1;
+		--color-block-lilac: #c5b0f4;
+		--color-block-cream: #f4ecd6;
+		--color-block-pink: #efd4d4;
+		--color-block-mint: #c8e6cd;
+		--color-block-coral: #f3c9b6;
+		--color-block-navy: #1f1d3d;
+		--color-accent-magenta: #ff3d8b;
+		--color-semantic-success: #1ea64a;
+	}
+
+	body {
+		font-family: var(--font-sans);
+		transition: background-color 0.2s ease, color 0.2s ease;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-display);
+		letter-spacing: -0.025em;
+	}
+
+	code, pre {
+		font-family: var(--font-mono);
+	}
+}
+
+/* Design.md Typography Helpers */
+.display-xl {
+	font-size: clamp(2.75rem, 6vw, 5.375rem);
+	font-weight: 340;
+	line-height: 1.02;
+	letter-spacing: -0.035em;
+}
+
+.display-lg {
+	font-size: clamp(2.25rem, 4.5vw, 4rem);
+	font-weight: 340;
+	line-height: 1.10;
+	letter-spacing: -0.025em;
+}
+
+.eyebrow-mono {
+	font-family: var(--font-mono);
+	font-size: 0.875rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+
+/* Design.md Button Components */
+.btn-primary-pill {
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 9999px;
+	padding: 10px 22px;
+	font-size: 0.95rem;
+	font-weight: 500;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	transition: all 0.15s ease;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+.btn-primary-pill:hover {
+	background-color: #262626;
+	transform: translateY(-1px);
+}
+
+.btn-secondary-pill {
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #e6e6e6;
+	border-radius: 9999px;
+	padding: 10px 22px;
+	font-size: 0.95rem;
+	font-weight: 500;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	transition: all 0.15s ease;
+	cursor: pointer;
+}
+
+.btn-secondary-pill:hover {
+	background-color: #f7f7f5;
+	border-color: #000000;
+}
+
+.btn-magenta-pill {
+	background-color: #ff3d8b;
+	color: #ffffff;
+	border-radius: 9999px;
+	padding: 10px 20px;
+	font-size: 0.95rem;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.15s ease;
+	box-shadow: 0 4px 12px rgba(255, 61, 139, 0.3);
+	cursor: pointer;
+}
+
+.btn-magenta-pill:hover {
+	background-color: #e02672;
+	transform: translateY(-1px);
+}
+
+/* Design.md Color Block Sections */
+.color-block {
+	border-radius: 24px;
+	padding: clamp(2rem, 5vw, 3.5rem);
+	transition: transform 0.2s ease;
+}
+
+.color-block-lime {
+	background-color: #dceeb1;
+	color: #000000;
+}
+
+.color-block-lilac {
+	background-color: #c5b0f4;
+	color: #000000;
+}
+
+.color-block-cream {
+	background-color: #f4ecd6;
+	color: #000000;
+}
+
+.color-block-mint {
+	background-color: #c8e6cd;
+	color: #000000;
+}
+
+.color-block-pink {
+	background-color: #efd4d4;
+	color: #000000;
+}
+
+.color-block-coral {
+	background-color: #f3c9b6;
+	color: #000000;
+}
+
+.color-block-navy {
+	background-color: #1f1d3d;
+	color: #ffffff;
+}
+
+/* Studio Canvas Background (Light vs Dark) */
+.studio-canvas {
+	background-color: #f6f6f4;
+	background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+	background-size: 28px 28px;
+	position: relative;
+	transition: background-color 0.2s ease;
+}
+
+html.dark .studio-canvas {
+	background-color: #090a0b;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+}
+
+/* Studio Window Box (Light vs Dark) */
+.studio-window {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+	transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+html.dark .studio-window {
+	background: rgba(18, 19, 22, 0.95);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+/* Studio Window Header (Light vs Dark) */
+.studio-window-header {
+	background: #ffffff;
+	border-bottom: 1px solid #e6e6e6;
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+html.dark .studio-window-header {
+	background: rgba(24, 25, 29, 0.85);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glass Card */
+.glass-card {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+html.dark .glass-card {
+	background: rgba(18, 19, 22, 0.8);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.traffic-light-red {
+	width: 11px;
+	height: 11px;
+	border-radius: 9999px;
+	background-color: #ef4444;
+	box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+}
+
+.traffic-light-yellow {
+	width: 11px;
+	height: 11px;
+	border-radius: 9999px;
+	background-color: #f59e0b;
+	box-shadow: 0 0 6px rgba(245, 158, 11, 0.4);
+}
+
+.traffic-light-green {
+	width: 11px;
+	height: 11px;
+	border-radius: 9999px;
+	background-color: #10b981;
+	box-shadow: 0 0 6px rgba(16, 185, 129, 0.4);
+}
+
+.active-pill-orange {
+	background-color: #ea580c;
+	color: #ffffff;
+	box-shadow: 0 2px 10px rgba(234, 88, 12, 0.35);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(120, 120, 120, 0.2);
+	border-radius: 9999px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.15);
+}
