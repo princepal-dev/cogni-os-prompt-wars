@@ -1,39 +1,16 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-	import { Brain, Zap, ArrowRight } from 'lucide-svelte';
+	import { enhance } from '$app/forms';
+	import { page } from '$app/state';
+	import { Brain, ArrowRight, Lock, CheckCircle2 } from 'lucide-svelte';
 
-	let email = $state('alex@learner.com');
-	let password = $state('password123');
+	let { form } = $props();
+
+	let email = $state('');
+	let password = $state('');
 	let isSubmitting = $state(false);
-	let errorMessage = $state<string | null>(null);
 
-	async function handleLogin() {
-		isSubmitting = true;
-		errorMessage = null;
-		try {
-			const res = await fetch('/api/auth/login', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ email, password })
-			});
-			const json = await res.json();
-			if (json.success) {
-				goto('/dashboard');
-			} else {
-				errorMessage = json.error?.message || 'Login failed';
-			}
-		} catch (e: any) {
-			errorMessage = e.message;
-		} finally {
-			isSubmitting = false;
-		}
-	}
-
-	function quickDemoLogin() {
-		email = 'alex@learner.com';
-		password = 'password123';
-		handleLogin();
-	}
+	let isRegistered = $derived(page.url.searchParams.get('registered') === 'true');
+	let errorMessage = $derived(form?.message as string | undefined);
 </script>
 
 <svelte:head>
@@ -60,27 +37,18 @@
 		<div class="w-full max-w-md bg-white dark:bg-[#121316] rounded-3xl p-8 border border-[#e6e6e6] dark:border-white/[0.08] shadow-xl space-y-6">
 			<div class="text-center space-y-1">
 				<div class="w-12 h-12 rounded-2xl bg-[#c5b0f4] flex items-center justify-center mx-auto mb-3 shadow-sm text-black">
-					<Brain class="w-6 h-6" />
+					<Lock class="w-6 h-6" />
 				</div>
 				<h1 class="text-2xl font-bold text-black dark:text-white font-display">Sign In to CognitiveOS</h1>
 				<p class="text-xs text-zinc-500 dark:text-zinc-400 font-light">Personal Adaptive Learning Intelligence OS</p>
 			</div>
 
-			<!-- 1-Click Evaluator Demo Login Button -->
-			<button
-				type="button"
-				onclick={quickDemoLogin}
-				class="w-full flex items-center justify-center gap-2 py-3 rounded-full bg-[#dceeb1] hover:bg-[#cbe09c] text-black text-xs font-bold shadow-sm transition-all cursor-pointer border border-black/10"
-			>
-				<Zap class="w-4 h-4" />
-				<span>1-Click Hackathon Evaluator Login</span>
-			</button>
-
-			<div class="flex items-center gap-2 text-zinc-400 dark:text-zinc-600 text-xs my-2 font-mono">
-				<div class="h-px bg-[#e6e6e6] dark:bg-zinc-800 flex-1"></div>
-				<span>OR</span>
-				<div class="h-px bg-[#e6e6e6] dark:bg-zinc-800 flex-1"></div>
-			</div>
+			{#if isRegistered}
+				<div class="p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-700/50 text-xs text-emerald-900 dark:text-emerald-200 font-medium flex items-center gap-2">
+					<CheckCircle2 class="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+					<span>Account created successfully! Please sign in with your credentials.</span>
+				</div>
+			{/if}
 
 			{#if errorMessage}
 				<div class="p-3 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-700/50 text-xs text-rose-900 dark:text-rose-200 font-medium">
@@ -88,37 +56,56 @@
 				</div>
 			{/if}
 
-			<form onsubmit={(e) => { e.preventDefault(); handleLogin(); }} class="space-y-4 text-left">
+			<form
+				method="POST"
+				use:enhance={() => {
+					isSubmitting = true;
+					return async ({ update }) => {
+						isSubmitting = false;
+						await update();
+					};
+				}}
+				class="space-y-4 text-left"
+			>
 				<div>
 					<label for="login-email" class="block text-xs font-bold text-zinc-700 dark:text-zinc-300 mb-1 uppercase tracking-wider font-mono">
 						Email Address:
 					</label>
 					<input
 						id="login-email"
+						name="email"
 						type="email"
 						bind:value={email}
 						required
+						placeholder="name@example.com"
 						class="w-full bg-[#f7f7f5] dark:bg-zinc-950 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 dark:text-zinc-100 border border-[#e6e6e6] dark:border-zinc-800 focus:outline-none focus:border-orange-500 font-medium"
 					/>
 				</div>
 
 				<div>
-					<label for="login-pass" class="block text-xs font-bold text-zinc-700 dark:text-zinc-300 mb-1 uppercase tracking-wider font-mono">
-						Password:
-					</label>
+					<div class="flex items-center justify-between mb-1">
+						<label for="login-pass" class="block text-xs font-bold text-zinc-700 dark:text-zinc-300 uppercase tracking-wider font-mono">
+							Password:
+						</label>
+						<a href="/forgot-password" class="text-[11px] text-zinc-500 hover:text-orange-500 underline font-mono">
+							Forgot password?
+						</a>
+					</div>
 					<input
 						id="login-pass"
+						name="password"
 						type="password"
 						bind:value={password}
 						required
+						placeholder="••••••••"
 						class="w-full bg-[#f7f7f5] dark:bg-zinc-950 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 dark:text-zinc-100 border border-[#e6e6e6] dark:border-zinc-800 focus:outline-none focus:border-orange-500 font-medium"
 					/>
 				</div>
 
 				<button
 					type="submit"
-					disabled={isSubmitting}
-					class="btn-primary-pill w-full py-3 text-xs justify-center"
+					disabled={isSubmitting || !email.trim() || !password}
+					class="btn-primary-pill w-full py-3 text-xs justify-center cursor-pointer disabled:opacity-50"
 				>
 					{isSubmitting ? 'Signing in...' : 'Sign In'}
 				</button>

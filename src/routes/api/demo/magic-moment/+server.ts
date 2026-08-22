@@ -1,13 +1,11 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
 import { DemoService } from '$lib/server/services/demo.service';
-import { GoalService } from '$lib/server/services/goal.service';
-import { AuthService } from '$lib/server/auth/auth.service';
 import { dbStore } from '$lib/server/db/store';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	let user = locals.user;
+	const user = locals.user;
 	if (!user) {
-		user = dbStore.getUserByEmail('alex@learner.com') || (await AuthService.ensureSeedUser());
+		return json({ success: false, error: { code: 'UNAUTHORIZED', message: 'Not authenticated' } }, { status: 401 });
 	}
 
 	try {
@@ -17,8 +15,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			if (goals.length > 0) {
 				goalId = goals[0].id;
 			} else {
-				const seeded = await GoalService.ensureSeedGoal(user);
-				goalId = seeded.id;
+				return json({ success: false, error: { code: 'NO_GOAL', message: 'Please create a learning goal first.' } }, { status: 400 });
 			}
 		}
 

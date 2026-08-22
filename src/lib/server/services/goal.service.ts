@@ -214,9 +214,12 @@ export class GoalService {
 		];
 	}
 
-	// Get all goals for a user with live progress percentages
-	public static getUserGoals(userId: string): LearningGoal[] {
-		const goals = dbStore.getGoals(userId);
+	// Get all goals for a user with live progress percentages (DB first)
+	public static async getUserGoals(userId: string): Promise<LearningGoal[]> {
+		let goals = await NeonPostgresService.getGoals(userId);
+		if (goals.length === 0) {
+			goals = dbStore.getGoals(userId);
+		}
 		for (const g of goals) {
 			const states = dbStore.getKnowledgeStates(g.id, userId);
 			g.totalConceptsCount = states.length;
@@ -227,7 +230,7 @@ export class GoalService {
 
 	// Ensure seed demo goal for evaluation
 	public static async ensureSeedGoal(user: User): Promise<LearningGoal> {
-		const existingGoals = dbStore.getGoals(user.id);
+		const existingGoals = await GoalService.getUserGoals(user.id);
 		if (existingGoals.length > 0) {
 			return existingGoals[0];
 		}

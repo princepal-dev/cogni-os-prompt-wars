@@ -4,6 +4,7 @@
 
 import { openRouterProvider } from './openrouter.provider';
 import { PROMPTS } from './prompts';
+import { OfflineFallbackEngine } from './offline-fallback.engine';
 import type {
 	DiagnosticQuestion,
 	DiagnosticEvaluationResult,
@@ -35,7 +36,7 @@ export class AIService {
 		return {
 			agentName: AI_AGENT_NAME,
 			isOnline: openRouterProvider.isAvailable(),
-			model: process.env.OPENROUTER_MODEL || 'anthropic/claude-3.5-sonnet',
+			model: openRouterProvider.getModel(),
 			offlineMessage: `${AI_AGENT_NAME} (our AI Learning Agent) is currently offline. You can continue revising with flashcards, Second Brain notes, and quizzes!`
 		};
 	}
@@ -157,26 +158,31 @@ export class AIService {
 		};
 	}
 
-	// Generate Roadmap using real AI
+	// Generate Roadmap using real AI with graceful fallback
 	public static async generateRoadmap(
 		topic: string,
 		background: string,
 		targetOutcome: string,
 		availableHours: number
 	): Promise<{ summary: string; totalEstimatedHours: number; milestones: Milestone[] }> {
-		if (!openRouterProvider.isAvailable()) {
-			throw new AiOfflineError();
+		if (openRouterProvider.isAvailable()) {
+			try {
+				const res = await openRouterProvider.completeJson<{ summary: string; totalEstimatedHours: number; milestones: Milestone[] }>([
+					{ role: 'system', content: PROMPTS.ROADMAP_GENERATION },
+					{
+						role: 'user',
+						content: `Create a structured roadmap for topic: "${topic}". Target outcome: "${targetOutcome}". Learner background: "${background}". Total available hours: ${availableHours}.`
+					}
+				]);
+				if (res?.milestones?.length) {
+					return res;
+				}
+			} catch (e) {
+				console.warn('OpenRouter generateRoadmap fallback:', e);
+			}
 		}
 
-		const res = await openRouterProvider.completeJson<{ summary: string; totalEstimatedHours: number; milestones: Milestone[] }>([
-			{ role: 'system', content: PROMPTS.ROADMAP_GENERATION },
-			{
-				role: 'user',
-				content: `Create a structured roadmap for topic: "${topic}". Target outcome: "${targetOutcome}". Learner background: "${background}". Total available hours: ${availableHours}.`
-			}
-		]);
-
-		return res;
+		return OfflineFallbackEngine.generateRoadmap(topic, background, targetOutcome, availableHours);
 	}
 
 	// Socratic Teach-Back Evaluator using real AI

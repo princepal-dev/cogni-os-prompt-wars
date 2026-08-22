@@ -1,6 +1,25 @@
-// OpenRouter LLM Provider Implementation
-
+import fs from 'node:fs';
+import path from 'node:path';
 import type { LLMProvider, LLMMessage, LLMCompletionOptions } from './llm-provider.interface';
+
+function getEnvValue(key: string): string | null {
+	if (process.env[key]) return process.env[key] as string;
+	try {
+		const envPath = path.resolve(process.cwd(), '.env');
+		if (fs.existsSync(envPath)) {
+			const content = fs.readFileSync(envPath, 'utf-8');
+			for (const line of content.split('\n')) {
+				const trimmed = line.trim();
+				if (trimmed.startsWith(`${key}=`)) {
+					return trimmed.slice(`${key}=`.length).trim().replace(/^["']|["']$/g, '');
+				}
+			}
+		}
+	} catch (e) {
+		console.warn(`[OpenRouter] Error reading .env for ${key}:`, e);
+	}
+	return null;
+}
 
 export class OpenRouterLLMProvider implements LLMProvider {
 	private apiKey: string;
@@ -8,16 +27,16 @@ export class OpenRouterLLMProvider implements LLMProvider {
 	private baseUrl: string = 'https://openrouter.ai/api/v1';
 
 	constructor() {
-		this.apiKey = process.env.OPENROUTER_API_KEY || '';
-		this.model = process.env.OPENROUTER_MODEL || 'anthropic/claude-3.5-sonnet';
+		this.apiKey = getEnvValue('OPENROUTER_API_KEY') || '';
+		this.model = getEnvValue('OPENROUTER_MODEL') || 'openrouter/free';
 	}
 
 	public getApiKey(): string {
-		return process.env.OPENROUTER_API_KEY || this.apiKey || '';
+		return getEnvValue('OPENROUTER_API_KEY') || this.apiKey || '';
 	}
 
 	public getModel(): string {
-		return process.env.OPENROUTER_MODEL || this.model || 'anthropic/claude-3.5-sonnet';
+		return getEnvValue('OPENROUTER_MODEL') || this.model || 'openrouter/free';
 	}
 
 	public isAvailable(): boolean {
@@ -35,7 +54,7 @@ export class OpenRouterLLMProvider implements LLMProvider {
 
 		const response = await fetch(`${this.baseUrl}/chat/completions`, {
 			method: 'POST',
-			signal: AbortSignal.timeout(12000),
+			signal: AbortSignal.timeout(3000),
 			headers: {
 				'Content-Type': 'application/json',
 				Authorization: `Bearer ${key}`,

@@ -9,7 +9,7 @@ export const load: LayoutServerLoad = async ({ locals }) => {
 	}
 
 	const userId = user.id;
-	const goals = GoalService.getUserGoals(userId);
+	const goals = await GoalService.getUserGoals(userId);
 	const activeGoal = goals[0] || null;
 
 	return {

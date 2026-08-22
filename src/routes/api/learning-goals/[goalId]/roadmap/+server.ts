@@ -1,9 +1,8 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
 import { RoadmapService } from '$lib/server/services/roadmap.service';
-import { dbStore } from '$lib/server/db/store';
 
 export const GET: RequestHandler = async ({ params, locals }) => {
-	const user = locals.user || dbStore.getUserByEmail('alex@learner.com');
+	const user = locals.user;
 	if (!user) {
 		return json({ success: false, error: { code: 'UNAUTHORIZED', message: 'Not authenticated' } }, { status: 401 });
 	}
@@ -18,7 +17,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 };
 
 export const POST: RequestHandler = async ({ params, request, locals }) => {
-	const user = locals.user || dbStore.getUserByEmail('alex@learner.com');
+	const user = locals.user;
 	if (!user) {
 		return json({ success: false, error: { code: 'UNAUTHORIZED', message: 'Not authenticated' } }, { status: 401 });
 	}

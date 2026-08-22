@@ -19,7 +19,7 @@
 			});
 			const json = await res.json();
 			if (json.success) {
-				goto('/goals/new');
+				goto('/login?registered=true');
 			} else {
 				errorMessage = json.error?.message || 'Registration failed';
 			}
@@ -77,7 +77,7 @@
 						type="text"
 						bind:value={name}
 						required
-						placeholder="Alex Learner"
+						placeholder="Jane Doe"
 						class="w-full bg-[#f7f7f5] dark:bg-zinc-950 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 dark:text-zinc-100 border border-[#e6e6e6] dark:border-zinc-800 focus:outline-none focus:border-orange-500 font-medium"
 					/>
 				</div>
@@ -91,7 +91,7 @@
 						type="email"
 						bind:value={email}
 						required
-						placeholder="alex@learner.com"
+						placeholder="name@example.com"
 						class="w-full bg-[#f7f7f5] dark:bg-zinc-950 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 dark:text-zinc-100 border border-[#e6e6e6] dark:border-zinc-800 focus:outline-none focus:border-orange-500 font-medium"
 					/>
 				</div>

@@ -25,11 +25,29 @@ export class KnowledgeService {
 			(c) => c.id === conceptNameOrId || c.name.toLowerCase() === conceptNameOrId.toLowerCase()
 		);
 
-		if (!state && concept) {
+		if (!state) {
+			const newConceptId = concept?.id || `c-${crypto.randomUUID().slice(0, 8)}`;
+			const conceptName = concept?.name || conceptNameOrId;
+			if (!concept) {
+				const newConcept: KnowledgeConcept = {
+					id: newConceptId,
+					goalId,
+					name: conceptName,
+					slug: conceptName.toLowerCase().replace(/\s+/g, '-'),
+					category: 'Concepts',
+					description: `Core concept: ${conceptName}`,
+					importance: 'CORE',
+					estimatedHoursToLearn: 2,
+					prerequisites: [],
+					subconcepts: []
+				};
+				dbStore.saveConcepts([newConcept]);
+			}
+
 			state = {
 				id: crypto.randomUUID(),
-				conceptId: concept.id,
-				conceptName: concept.name,
+				conceptId: newConceptId,
+				conceptName,
 				goalId,
 				userId,
 				state: 'UNKNOWN',
@@ -43,10 +61,6 @@ export class KnowledgeService {
 				recentMisconceptions: [],
 				notesCount: 0
 			};
-		}
-
-		if (!state) {
-			throw new Error(`Concept not found: ${conceptNameOrId}`);
 		}
 
 		const prevState = state.state;

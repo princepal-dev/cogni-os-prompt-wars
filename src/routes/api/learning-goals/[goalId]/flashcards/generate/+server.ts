@@ -1,10 +1,9 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
 import { NotesService } from '$lib/server/services/notes.service';
 import { FlashcardService } from '$lib/server/services/flashcard.service';
-import { dbStore } from '$lib/server/db/store';
 
 export const POST: RequestHandler = async ({ params, request, locals }) => {
-	const user = locals.user || dbStore.getUserByEmail('alex@learner.com');
+	const user = locals.user;
 	if (!user) {
 		return json({ success: false, error: { code: 'UNAUTHORIZED', message: 'Not authenticated' } }, { status: 401 });
 	}

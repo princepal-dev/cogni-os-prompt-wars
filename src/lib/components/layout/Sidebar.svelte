@@ -231,7 +231,7 @@
 						<span class="text-orange-500 font-bold">78% Mastered</span>
 					</div>
 					<div class="text-[11px] font-bold text-zinc-900 dark:text-zinc-200 truncate">
-						{activeGoal ? activeGoal.title : 'Graph Algorithms'}
+						{activeGoal ? activeGoal.title : 'No active goal'}
 					</div>
 				</div>
 
@@ -243,9 +243,9 @@
 		{:else}
 			<div class="flex justify-center">
 				<a
-					href={`/goals/${goalId}/roadmap`}
+					href={goalId ? `/goals/${goalId}/roadmap` : '/goals/new'}
 					class="w-10 h-10 rounded-xl bg-[#f0f0ee] dark:bg-zinc-900 flex items-center justify-center text-xs hover:bg-[#e4e4e1] dark:hover:bg-zinc-800 transition-colors border border-[#e0e0dc] dark:border-zinc-800 text-orange-500"
-					title="Active Goal: {activeGoal?.title || 'Graphs'}"
+					title="Active Goal: {activeGoal?.title || 'None'}"
 				>
 					<Target class="w-4 h-4" />
 				</a>

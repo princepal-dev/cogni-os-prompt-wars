@@ -26,7 +26,11 @@ export class AuthService {
 			throw new Error('Password must be at least 6 characters long');
 		}
 
-		const existing = dbStore.getUserByEmail(normalizedEmail);
+		// Check Neon Postgres first
+		let existing = await NeonPostgresService.getUserByEmail(normalizedEmail);
+		if (!existing) {
+			existing = dbStore.getUserByEmail(normalizedEmail) || null;
+		}
 		if (existing) {
 			throw new Error('An account with this email already exists');
 		}
@@ -40,14 +44,14 @@ export class AuthService {
 			createdAt: new Date().toISOString()
 		};
 
-		dbStore.createUser(user, passwordHash);
 		await NeonPostgresService.saveUser(user, passwordHash);
+		dbStore.createUser(user, passwordHash);
 
 		// Create default profile
 		const profile: LearnerProfile = {
 			id: crypto.randomUUID(),
 			userId: user.id,
-			background: 'Developer preparing for technical interviews and learning computer science concepts',
+			background: 'Developer learning computer science and domain skills',
 			dailyStudyMinutes: 45,
 			studyDaysPerWeek: 5,
 			preferredModalities: ['VIDEOS', 'CODING', 'PRACTICE_PROBLEMS'],
@@ -69,21 +73,31 @@ export class AuthService {
 			expiresAt,
 			createdAt: new Date().toISOString()
 		};
-		dbStore.createSession(session);
 		await NeonPostgresService.saveSession(session);
+		dbStore.createSession(session);
 
 		return { user, sessionToken };
 	}
 
-	// Login with email and password
+	// Login with email and password (DB-first)
 	public static async login(email: string, password: string): Promise<{ user: User; sessionToken: string }> {
 		const normalizedEmail = email.trim().toLowerCase();
-		const user = dbStore.getUserByEmail(normalizedEmail);
+		
+		// DB-first user lookup
+		let user = await NeonPostgresService.getUserByEmail(normalizedEmail);
+		if (!user) {
+			user = dbStore.getUserByEmail(normalizedEmail) || null;
+		}
+
 		if (!user) {
 			throw new Error('Invalid email or password');
 		}
 
-		const storedHash = dbStore.getPasswordHash(user.id);
+		let storedHash = await NeonPostgresService.getPasswordHash(user.id);
+		if (!storedHash) {
+			storedHash = dbStore.getPasswordHash(user.id) || null;
+		}
+
 		if (!storedHash) {
 			throw new Error('Invalid email or password');
 		}
@@ -92,6 +106,9 @@ export class AuthService {
 		if (!isValid) {
 			throw new Error('Invalid email or password');
 		}
+
+		// Keep in-memory cache synchronized with DB
+		dbStore.createUser(user, storedHash);
 
 		// Issue session
 		const sessionToken = crypto.randomBytes(32).toString('hex');
@@ -103,13 +120,13 @@ export class AuthService {
 			expiresAt,
 			createdAt: new Date().toISOString()
 		};
-		dbStore.createSession(session);
 		await NeonPostgresService.saveSession(session);
+		dbStore.createSession(session);
 
 		return { user, sessionToken };
 	}
 
-	// Resolve user from cookies (supports standard session cookie or Neon Auth token)
+	// Resolve user from cookies (supports standard session cookie or Neon Auth token) - DB First
 	public static async getUserFromEvent(event: RequestEvent): Promise<User | null> {
 		const sessionToken = event.cookies.get(SESSION_COOKIE_NAME);
 		if (!sessionToken) {
@@ -119,9 +136,12 @@ export class AuthService {
 				const bearerToken = authHeader.substring(7);
 				const neonUser = await neonAuth.verifyNeonToken(bearerToken);
 				if (neonUser) {
-					let user = dbStore.getUserByEmail(neonUser.email);
+					let user = await NeonPostgresService.getUserByEmail(neonUser.email);
 					if (!user) {
-						// Auto-provision user from Neon Auth
+						user = dbStore.getUserByEmail(neonUser.email) || null;
+					}
+					if (!user) {
+						// Auto-provision user from Neon Auth into Postgres
 						user = {
 							id: neonUser.id || crypto.randomUUID(),
 							email: neonUser.email,
@@ -129,8 +149,8 @@ export class AuthService {
 							createdAt: new Date().toISOString()
 						};
 						const randomHash = await hashPassword(crypto.randomUUID());
-						dbStore.createUser(user, randomHash);
 						await NeonPostgresService.saveUser(user, randomHash);
+						dbStore.createUser(user, randomHash);
 					}
 					return user;
 				}
@@ -138,22 +158,31 @@ export class AuthService {
 			return null;
 		}
 
-		const session = dbStore.getSessionByToken(sessionToken);
+		let session = await NeonPostgresService.getSessionByToken(sessionToken);
+		if (!session) {
+			session = dbStore.getSessionByToken(sessionToken) || null;
+		}
+
 		if (!session) {
 			return null;
 		}
 
-		const user = dbStore.getUserById(session.userId);
+		let user = await NeonPostgresService.getUserById(session.userId);
+		if (!user) {
+			user = dbStore.getUserById(session.userId) || null;
+		}
+
 		return user || null;
 	}
 
 	// Set session cookie
 	public static setSessionCookie(event: RequestEvent, sessionToken: string) {
+		const isHttps = event.url.protocol === 'https:';
 		event.cookies.set(SESSION_COOKIE_NAME, sessionToken, {
 			path: '/',
 			httpOnly: true,
 			sameSite: 'lax',
-			secure: process.env.NODE_ENV === 'production',
+			secure: isHttps,
 			maxAge: SESSION_MAX_AGE_SECONDS
 		});
 	}
@@ -171,7 +200,10 @@ export class AuthService {
 	// Request password reset token
 	public static async requestPasswordReset(email: string): Promise<string | null> {
 		const normalizedEmail = email.trim().toLowerCase();
-		const user = dbStore.getUserByEmail(normalizedEmail);
+		let user = dbStore.getUserByEmail(normalizedEmail);
+		if (!user) {
+			user = (await NeonPostgresService.getUserByEmail(normalizedEmail)) || undefined;
+		}
 		if (!user) {
 			return null;
 		}
@@ -195,17 +227,11 @@ export class AuthService {
 
 		const newHash = await hashPassword(newPassword);
 		dbStore.updateUserPassword(record.userId, newHash);
+		const user = dbStore.getUserById(record.userId);
+		if (user) {
+			await NeonPostgresService.saveUser(user, newHash);
+		}
 		dbStore.deletePasswordResetToken(token);
 		return true;
-	}
-
-	// Ensure demo evaluation account exists in memory and Neon PostgreSQL
-	public static async ensureSeedUser(): Promise<User> {
-		const demoEmail = 'alex@learner.com';
-		const existing = dbStore.getUserByEmail(demoEmail);
-		if (existing) return existing;
-
-		const { user } = await AuthService.register('Alex Learner', demoEmail, 'password123');
-		return user;
 	}
 }

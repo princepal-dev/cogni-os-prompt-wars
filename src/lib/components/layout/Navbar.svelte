@@ -4,6 +4,7 @@
 	import { createAiStatusQuery } from '$lib/query/queries';
 	import { uiStore } from '$lib/stores/ui.store';
 	import ThemeToggle from '$lib/components/ui/ThemeToggle.svelte';
+	import UserDropdown from '$lib/components/layout/UserDropdown.svelte';
 	import { PanelLeft, Zap, Bot, Target } from 'lucide-svelte';
 
 	let { user, activeGoal, goals = [] } = $props<{
@@ -45,16 +46,26 @@
 		<div class="h-4 w-px bg-[#e6e6e6] dark:bg-zinc-800 hidden sm:block"></div>
 
 		<!-- Active Goal Tab -->
-		<a
-			href={`/goals/${activeGoal?.id || 'demo-alex'}/roadmap`}
-			class="flex items-center gap-2 px-2.5 py-1 rounded-lg bg-[#f4f4f2] dark:bg-zinc-900/90 border border-[#e0e0dc] dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-700 text-xs font-mono transition-colors"
-		>
-			<Target class="w-3.5 h-3.5 text-orange-500" />
-			<span class="font-bold text-zinc-800 dark:text-zinc-200 truncate max-w-[140px] sm:max-w-[200px]">
-				{activeGoal?.title || 'Graph Algorithms'}
-			</span>
-			<span class="text-[10px] text-zinc-500 hidden sm:inline">Active Goal</span>
-		</a>
+		{#if activeGoal}
+			<a
+				href={`/goals/${activeGoal.id}/roadmap`}
+				class="flex items-center gap-2 px-2.5 py-1 rounded-lg bg-[#f4f4f2] dark:bg-zinc-900/90 border border-[#e0e0dc] dark:border-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-700 text-xs font-mono transition-colors"
+			>
+				<Target class="w-3.5 h-3.5 text-orange-500" />
+				<span class="font-bold text-zinc-800 dark:text-zinc-200 truncate max-w-[140px] sm:max-w-[200px]">
+					{activeGoal.title}
+				</span>
+				<span class="text-[10px] text-zinc-500 hidden sm:inline">Active Goal</span>
+			</a>
+		{:else}
+			<a
+				href="/goals/new"
+				class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-orange-100 dark:bg-orange-950/40 border border-orange-300 dark:border-orange-500/30 hover:border-orange-400 text-xs font-mono text-orange-800 dark:text-orange-300 transition-colors font-bold"
+			>
+				<Target class="w-3.5 h-3.5 text-orange-500" />
+				<span>+ Create Learning Goal</span>
+			</a>
+		{/if}
 	</div>
 
 	<!-- Center / Right: Theme Toggle + AI Agent Ada status badge + Quick Capture + User Profile -->
@@ -86,15 +97,7 @@
 			<span>Quick Capture</span>
 		</a>
 
-		<!-- User Avatar -->
-		<div class="flex items-center gap-2.5 pl-2 border-l border-[#e6e6e6] dark:border-zinc-800">
-			<div class="w-7 h-7 rounded-lg bg-gradient-to-tr from-orange-600 to-amber-500 flex items-center justify-center text-xs font-bold text-white shadow-sm">
-				{user?.name ? user.name.slice(0, 1).toUpperCase() : 'A'}
-			</div>
-			<div class="hidden lg:block text-left">
-				<span class="block text-xs font-bold text-zinc-900 dark:text-zinc-200 leading-none">{user?.name || 'Alex Learner'}</span>
-				<span class="block text-[10px] text-zinc-500 font-mono mt-0.5">Free Learner</span>
-			</div>
-		</div>
+		<!-- User Profile & Dropdown -->
+		<UserDropdown {user} />
 	</div>
 </header>

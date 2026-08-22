@@ -582,6 +582,10 @@ class StoreService {
 		this.persist();
 	}
 
+	saveAdaptiveEvent(event: AdaptiveEvent) {
+		this.addAdaptiveEvent(event);
+	}
+
 	getAdaptiveEvents(goalId: string, userId: string): AdaptiveEvent[] {
 		this.init();
 		return this.data.adaptiveEvents.filter((e) => e.goalId === goalId && e.userId === userId);

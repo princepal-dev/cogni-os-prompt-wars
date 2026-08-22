@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	}
 
 	const userId = user.id;
-	const goals = GoalService.getUserGoals(userId);
+	const goals = await GoalService.getUserGoals(userId);
 	const activeGoal = goals[0] || null;
 
 	if (!activeGoal) {

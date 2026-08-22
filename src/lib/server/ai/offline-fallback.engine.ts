@@ -296,7 +296,12 @@ export class OfflineFallbackEngine {
 	}
 
 	// Generate structured milestones and modules
-	public static generateRoadmap(topic: string): { summary: string; totalEstimatedHours: number; milestones: Milestone[] } {
+	public static generateRoadmap(
+		topic: string,
+		background?: string,
+		targetOutcome?: string,
+		availableHours?: number
+	): { summary: string; totalEstimatedHours: number; milestones: Milestone[] } {
 		const isGraphs = topic.toLowerCase().includes('graph');
 		if (isGraphs) {
 			return {

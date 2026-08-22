@@ -5,7 +5,7 @@ import { GoalService } from '$lib/server/services/goal.service';
 export const load: LayoutServerLoad = async ({ locals }) => {
 	const user = locals.user || null;
 	const profile = user ? dbStore.getProfile(user.id) : null;
-	const goals = user ? GoalService.getUserGoals(user.id) : [];
+	const goals = user ? await GoalService.getUserGoals(user.id) : [];
 
 	return {
 		user,

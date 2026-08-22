@@ -97,7 +97,7 @@
 							type="email"
 							bind:value={email}
 							required
-							placeholder="alex@learner.com"
+							placeholder="name@example.com"
 							class="w-full bg-[#f7f7f5] rounded-xl px-3.5 py-2.5 text-xs text-black border border-[#e6e6e6] focus:outline-none focus:border-black font-medium"
 						/>
 					</div>
