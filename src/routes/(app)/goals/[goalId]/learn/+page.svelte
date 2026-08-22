@@ -37,7 +37,7 @@
 			m.modules.map((mod) => ({
 				...mod,
 				milestoneTitle: m.title,
-				week: m.week
+				weekNumber: m.weekNumber
 			}))
 		) || []
 	);
@@ -47,11 +47,12 @@
 		id: 'core-1',
 		title: concepts[0]?.name || goal?.title || 'Core Fundamentals',
 		description: concepts[0]?.description || 'Master core foundational mechanics and algorithmic invariants.',
-		estimatedHours: 2,
-		concepts: [concepts[0]?.name || 'Fundamentals'],
+		estimatedMinutes: 60,
+		conceptNames: [concepts[0]?.name || 'Fundamentals'],
+		conceptIds: [],
 		status: 'IN_PROGRESS',
 		milestoneTitle: 'Foundations',
-		week: 1
+		weekNumber: 1
 	});
 
 	let activeTab = $state<'learn' | 'roadmap' | 'practice' | 'notes'>('learn');
@@ -74,7 +75,7 @@ function solution(input: any) {
 
 	function runCodeSimulation() {
 		runOutput = `Running execution for "${currentModule.title}":
-Target Concepts: ${currentModule.concepts.join(', ')}
+Target Concepts: ${(currentModule.conceptNames || []).join(', ')}
 Execution Result: Passed all edge test cases!
 Time Complexity: O(V + E) | Space: O(V)
 Invariants verified.`;
@@ -96,7 +97,7 @@ Invariants verified.`;
 				body: JSON.stringify({
 					title: `Notes: ${currentModule.title}`,
 					markdownContent: noteDraft,
-					extractedConcepts: currentModule.concepts
+					extractedConcepts: currentModule.conceptNames || []
 				})
 			});
 			const json = await res.json();
@@ -144,7 +145,7 @@ Invariants verified.`;
 					Topic {activeModuleIndex + 1} of {Math.max(allModules.length, 1)}
 				</span>
 				<span class="text-xs text-zinc-400">•</span>
-				<span class="text-xs font-mono text-zinc-500">~{currentModule.estimatedHours || 1} hrs</span>
+				<span class="text-xs font-mono text-zinc-500">{currentModule.estimatedMinutes || 45} mins</span>
 			</div>
 			<h1 class="text-2xl sm:text-3xl font-bold font-display text-black dark:text-white">
 				{currentModule.title}
@@ -214,7 +215,7 @@ Invariants verified.`;
 										<strong class="text-xs leading-tight">{mod.title}</strong>
 									</div>
 									<div class="text-[10px] font-mono text-zinc-500 pl-7">
-										<span>Week {mod.week} • {mod.estimatedHours}h</span>
+										<span>Week {mod.weekNumber} • {mod.estimatedMinutes}m</span>
 									</div>
 								</div>
 								<ChevronRight class="w-4 h-4 shrink-0 text-zinc-400 {isCurrent ? 'text-orange-500 translate-x-0.5' : ''} transition-transform" />
@@ -307,7 +308,7 @@ Invariants verified.`;
 								Covered Concepts in this Roadmap Milestone:
 							</h4>
 							<div class="flex flex-wrap gap-2">
-								{#each currentModule.concepts as cName}
+								{#each (currentModule.conceptNames || []) as cName}
 									<span class="px-3 py-1.5 rounded-xl bg-[#f0f0ee] dark:bg-zinc-900 border border-[#e0e0dc] dark:border-zinc-800 text-xs font-bold font-mono text-zinc-800 dark:text-zinc-200 flex items-center gap-1.5">
 										<Zap class="w-3.5 h-3.5 text-orange-500" />
 										<span>{cName}</span>

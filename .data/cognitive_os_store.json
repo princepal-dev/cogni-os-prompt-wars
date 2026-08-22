@@ -3338,6 +3338,42 @@
         "Best Practices",
         "Debugging"
       ]
+    },
+    {
+      "id": "c-9a82b011",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "name": "Breadth-First Search (BFS)",
+      "slug": "breadth-first-search-(bfs)",
+      "category": "Concepts",
+      "description": "Core concept: Breadth-First Search (BFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-a51293da",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "name": "Depth-First Search (DFS)",
+      "slug": "depth-first-search-(dfs)",
+      "category": "Concepts",
+      "description": "Core concept: Depth-First Search (DFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-76465f39",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "name": "Recursion Fundamentals",
+      "slug": "recursion-fundamentals",
+      "category": "Concepts",
+      "description": "Core concept: Recursion Fundamentals",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
     }
   ],
   "states": [
@@ -4836,10 +4872,103 @@
       "errorFrequency": 0,
       "recentMisconceptions": [],
       "notesCount": 0
+    },
+    {
+      "id": "33633644-e177-4d64-b80d-6afe4d64e15c",
+      "conceptId": "c-9a82b011",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:20:06.797Z",
+      "reviewDueAt": "2026-08-23T08:20:06.797Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "5d35c4e8-4228-4644-b015-d84bf96858ac",
+      "conceptId": "c-a51293da",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "state": "DEVELOPING",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:20:28.237Z",
+      "reviewDueAt": "2026-08-23T08:20:28.237Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "1a487370-934e-4bd4-9330-9fe45c37a116",
+      "conceptId": "c-76465f39",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "state": "DEVELOPING",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:20:28.249Z",
+      "reviewDueAt": "2026-08-23T08:20:28.249Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
     }
   ],
   "relations": [],
   "timelineEvents": [
+    {
+      "id": "18246e0e-d5e8-4216-bc04-a86a611d4eaa",
+      "conceptId": "c-76465f39",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Detected foundational gap in call stack unwind behavior during DFS practice.",
+      "timestamp": "2026-08-22T08:20:28.251Z"
+    },
+    {
+      "id": "40c8c2a8-f95f-415e-83fb-56a86ddec077",
+      "conceptId": "c-a51293da",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Struggled with recursion call stack and cycle backtracking in quiz attempt.",
+      "timestamp": "2026-08-22T08:20:28.242Z"
+    },
+    {
+      "id": "4ff8812d-d28c-4606-afd0-9265335f261e",
+      "conceptId": "c-9a82b011",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "previousState": "UNKNOWN",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "TEACH_BACK",
+      "reason": "Teach-Back score: 45/100 (Clarity: 50, Correctness: 60)",
+      "timestamp": "2026-08-22T08:20:06.801Z"
+    },
     {
       "id": "650b9e14-b655-495c-b779-91b3de923933",
       "conceptId": "c-rec-2e5c",
@@ -6497,7 +6626,7 @@
       "id": "1c51bac6-7207-4de5-a89c-75df8753747a",
       "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
       "title": "Learn Database Roadmap",
-      "version": 1,
+      "version": 2,
       "summary": "Personalized 4-week roadmap for Learn Database",
       "totalEstimatedHours": 24,
       "milestones": [
@@ -6514,6 +6643,44 @@
           "status": "ACTIVE",
           "orderIndex": 0,
           "modules": [
+            {
+              "id": "mod-injected-1787386828254",
+              "milestoneId": "m-g1",
+              "title": "Recursion & DFS Call Stack Prerequisites Refresher",
+              "description": "Targeted review of core invariants and foundation principles for Recursion & DFS Call Stack.",
+              "estimatedMinutes": 35,
+              "conceptIds": [
+                "c-injected-1"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [],
+              "formatType": "CODING",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Triggered by gap detection: User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-injected-prac-1787386828254",
+              "milestoneId": "m-g1",
+              "title": "Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises",
+              "description": "Hands-on practice problems with step-by-step invariant validation.",
+              "estimatedMinutes": 40,
+              "conceptIds": [
+                "c-injected-2"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [
+                "Recursion & DFS Call Stack"
+              ],
+              "formatType": "PRACTICE",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Reinforce mechanics through targeted deliberate practice.",
+              "status": "TODO"
+            },
             {
               "id": "mod-g1",
               "milestoneId": "m-g1",
@@ -6534,9 +6701,11 @@
           ]
         }
       ],
-      "adaptationCount": 0,
+      "adaptationCount": 1,
       "createdAt": "2026-08-22T08:05:39.089Z",
-      "updatedAt": "2026-08-22T08:05:39.089Z"
+      "updatedAt": "2026-08-22T08:20:28.254Z",
+      "lastAdaptedAt": "2026-08-22T08:20:28.254Z",
+      "activeAdaptationNotice": "⚡ Roadmap Adapted (v2): Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\". (User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.)"
     }
   ],
   "dailyPlans": [
@@ -6793,39 +6962,40 @@
       "availableMinutes": 45,
       "items": [
         {
-          "id": "item-f6766c",
-          "order": 2,
-          "title": "Learn Core Foundations traversal mechanics",
-          "conceptName": "Core Foundations",
+          "id": "item-adapt-1",
+          "order": 1,
+          "title": "Recursion Call Stack Refresher",
+          "conceptName": "Recursion Fundamentals",
           "estimatedMinutes": 15,
-          "type": "LEARN",
+          "type": "REVIEW",
           "status": "PENDING",
-          "whyReason": "Active milestone focus in your personalized roadmap."
+          "whyReason": "Detected gap in recursion call stack dynamics during recent DFS quiz. Essential prerequisite for traversal algorithms."
         },
         {
-          "id": "item-a56c53",
-          "order": 3,
-          "title": "Solve 2 targeted coding problems",
-          "conceptName": "Core Foundations",
-          "estimatedMinutes": 15,
+          "id": "item-adapt-2",
+          "order": 2,
+          "title": "DFS Stack Visualization & 2 Guided Problems",
+          "conceptName": "Depth-First Search (DFS)",
+          "estimatedMinutes": 20,
           "type": "PRACTICE",
           "status": "PENDING",
-          "whyReason": "Hands-on problem solving matches your preference for coding exercises."
+          "whyReason": "Replaces abstract reading with guided step-by-step code drills."
         },
         {
-          "id": "item-33077a",
-          "order": 4,
-          "title": "Recall 5 daily flashcards",
-          "estimatedMinutes": 5,
+          "id": "item-adapt-3",
+          "order": 3,
+          "title": "Flashcard Recall: Graph Invariants",
+          "estimatedMinutes": 10,
           "type": "FLASHCARDS",
           "status": "PENDING",
-          "whyReason": "Spaced repetition to lock key invariants into long-term memory."
+          "whyReason": "Daily spaced repetition for long-term retention."
         }
       ],
-      "summary": "Good morning! You have 45 minutes allocated today for Learn Database.",
+      "summary": "Plan adapted! Today’s focus shifted to securing Recursion fundamentals before advancing.",
       "isOnTrack": true,
       "progressPercentage": 0,
-      "createdAt": "2026-08-22T08:05:39.095Z"
+      "createdAt": "2026-08-22T08:05:39.095Z",
+      "weakAreaFocus": "Recursion Fundamentals & DFS"
     }
   ],
   "tasks": [
@@ -8159,6 +8329,3403 @@
         }
       ],
       "createdAt": "2026-08-22T08:07:30.755Z"
+    },
+    {
+      "id": "43f9e019-3ceb-4552-b1e2-2b02c2c70b68",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-a541",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-948d",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-b31f",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-4d5e",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:10:20.032Z"
+    },
+    {
+      "id": "16a98c8c-1302-482b-b09f-282df1a347a7",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-4f56",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-05bb",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-d32b",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-b47a",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:49.747Z"
+    },
+    {
+      "id": "67bdf991-7459-43d8-8d6b-248bff910fbe",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-8753",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-29aa",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-62db",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-9f7c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:50.244Z"
+    },
+    {
+      "id": "803c7619-738b-4e36-a63e-bfef9cb6f5ff",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-9535",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-4adb",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-4ae3",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-a4bf",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:50.595Z"
+    },
+    {
+      "id": "9df1ae8e-2d7e-493e-bb27-b68a0dc867b9",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-10ef",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-aec7",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-133f",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-05f1",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:50.933Z"
+    },
+    {
+      "id": "55530267-9918-4faf-8f1d-5d07cf97a21b",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-dee4",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-4461",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-58ca",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-406c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:51.267Z"
+    },
+    {
+      "id": "bf803252-0c7d-4dbc-a603-3bcf945a4e05",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-08f1",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-bf01",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-e40c",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-cfdb",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:51.583Z"
+    },
+    {
+      "id": "17981c8f-7448-44f8-99fe-98e5ab89dcdd",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-5b1b",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-2cfa",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-96a6",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-d10c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:51.937Z"
+    },
+    {
+      "id": "fe5188b9-c549-4ffb-977c-5b9367556844",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-3c0b",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-a692",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-d3b7",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-e868",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:52.279Z"
+    },
+    {
+      "id": "c179a4fd-5fbe-4bb2-a4b7-15cd82ad6354",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-8042",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-f791",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-35a8",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-8177",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:52.617Z"
+    },
+    {
+      "id": "b200ad84-8bc7-4dfc-8ceb-e2d0a20149d2",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-b6b4",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-13fb",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-1745",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-1bec",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:52.961Z"
+    },
+    {
+      "id": "a22b7304-ae61-4bef-a702-7814b8f7bdfb",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-5839",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-eae5",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-c69a",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-b03c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:53.315Z"
+    },
+    {
+      "id": "ee44fb24-b18f-41f8-9abf-7190f5c9720b",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-3ddc",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-9dec",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-430a",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-bc18",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:53.633Z"
+    },
+    {
+      "id": "82aa7ee3-eb07-458b-b1b6-b81ae944e52f",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-f80e",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-adb1",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-7070",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-e5ac",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:53.991Z"
+    },
+    {
+      "id": "cf3cd583-04e7-44db-aa8b-6b36e0889695",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-cd7d",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-d6ac",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-7a4b",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-786e",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:54.340Z"
+    },
+    {
+      "id": "2c9f14ff-5529-479b-ad8f-5029fa69cf05",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-97c3",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-26d4",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-abc6",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-b0e1",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:54.674Z"
+    },
+    {
+      "id": "2af97bad-5aa1-403c-b94b-828f04fa3077",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-98c6",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-b8b9",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-6c0e",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-a2fa",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:55.009Z"
+    },
+    {
+      "id": "9e8ddd6e-b188-4de2-abd1-1e9858c68c2e",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-0c5c",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-9448",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-a0fb",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-2a2c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:55.354Z"
+    },
+    {
+      "id": "97cf95a7-2447-4ee6-9c2a-48d505910259",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-e530",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-c30e",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-6e6a",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-9a24",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:55.715Z"
+    },
+    {
+      "id": "83eb1c13-2a35-49a1-acda-cb328552d5ea",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-5d11",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-d456",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-a19c",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-f653",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:56.057Z"
+    },
+    {
+      "id": "f8755ccf-706d-4c6b-9fd9-ce6c475c8ba3",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-9a5a",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-f2f1",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-21a2",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-64e2",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:56.395Z"
+    },
+    {
+      "id": "be9b2e82-4859-4cae-8d28-4c27c9e978f8",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-a13b",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-877f",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-0438",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-da4d",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:56.729Z"
+    },
+    {
+      "id": "866a6a88-8a19-429a-863f-02aa88f321a8",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-b43a",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-6777",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-e400",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-ad45",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:57.073Z"
+    },
+    {
+      "id": "2c7f94e4-2347-448b-9e80-99aa3fb50e80",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-282b",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-fae8",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-5dd1",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-1687",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:57.417Z"
+    },
+    {
+      "id": "fca43570-966f-4597-8bf2-59a409719da9",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-00a4",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-3c29",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-5228",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-20ca",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:57.748Z"
+    },
+    {
+      "id": "0aeacb10-52c2-4f74-885a-11386d573749",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-645e",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-a591",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-a289",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-d83f",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:58.094Z"
+    },
+    {
+      "id": "84f4e666-8576-40a9-889e-7069f27061d3",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-efaf",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-ff06",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-44bf",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-1afa",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:58.430Z"
+    },
+    {
+      "id": "a5410590-00b3-4055-b422-931ff9ac389a",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-0e10",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-eddb",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-b160",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-d830",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:58.762Z"
+    },
+    {
+      "id": "24ed1662-10f0-4c85-8c3d-6a936df8ae76",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-ce86",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-d3fd",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-adf0",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-1cda",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.101Z"
+    },
+    {
+      "id": "2d680416-b33e-44d1-92ea-14969c5a308b",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "WEAK AREA Quiz: Graph Algorithms",
+      "mode": "WEAK_AREA",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-2ca8",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-b34e",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-dd16",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-cbfb",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.222Z"
+    },
+    {
+      "id": "1be864fb-b736-4234-89a2-380d648c75f9",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-95df",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-a5fa",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-f5e9",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-9054",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.444Z"
+    },
+    {
+      "id": "22f80a30-cc66-467b-b4fd-1ded1f00208e",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-581d",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-e99d",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-d2fc",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-acea",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.531Z"
+    },
+    {
+      "id": "f05c6806-6151-4be3-acc1-90f923d90d6e",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-5b64",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-f001",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-2f70",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-1d85",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.685Z"
+    },
+    {
+      "id": "353db5a9-904c-4314-9358-85da36ecd4e3",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-8208",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-324e",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-4c8f",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-539f",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.839Z"
+    },
+    {
+      "id": "699f8a13-5212-4385-931b-57f4b70e01a8",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-ce15",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-443c",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-a82f",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-e9e8",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:20:59.937Z"
+    },
+    {
+      "id": "1bd2d668-597f-4dc1-b380-6950d957c1ca",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-db33",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-c42a",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-ac00",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-8435",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.059Z"
+    },
+    {
+      "id": "bb65b4da-7208-4ca5-8213-394a75433204",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-d253",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-9918",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-16d7",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-a1a3",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.163Z"
+    },
+    {
+      "id": "cdd06765-db09-4071-bf04-4fec43d67341",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-4159",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-56da",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-12a6",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-739c",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.284Z"
+    },
+    {
+      "id": "531f38ab-c0fe-4157-9fea-8e8815a38a10",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-5a6d",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-2b2e",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-3078",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-afee",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.400Z"
+    },
+    {
+      "id": "48ec626f-a491-4e5e-979a-df580bdf8a17",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-014d",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-995a",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-53b8",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-a26a",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.511Z"
+    },
+    {
+      "id": "10b7890d-ba0a-4b15-865f-d3dcdfbd26b0",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-10fc",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-5e0f",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-00c5",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-8e16",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.601Z"
+    },
+    {
+      "id": "ff017dfb-8d76-499b-917a-d14cd5be488d",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-13a7",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-c54d",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-649c",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-e553",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.702Z"
+    },
+    {
+      "id": "7ec525df-4088-40a0-8645-2a6f7f4e54e7",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-2e74",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-3122",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-8268",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-d7ab",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:21:00.806Z"
     }
   ],
   "quizAttempts": [
@@ -8687,6 +12254,38 @@
   ],
   "teachBackSessions": [
     {
+      "id": "a9517d83-afc1-40a9-a6c8-7914400a81c4",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "conceptId": "concept-id",
+      "conceptName": "Breadth-First Search (BFS)",
+      "promptScenario": "Explain how BFS guarantees the shortest path in an unweighted graph, and why a Queue data structure is mandatory.",
+      "userExplanation": "We use queue so that we have fifo ",
+      "score": 45,
+      "clarityScore": 50,
+      "depthScore": 30,
+      "correctnessScore": 60,
+      "strengths": [
+        "Correctly identifies that BFS uses a queue data structure",
+        "Recognizes FIFO (First-In-First-Out) ordering as relevant to BFS"
+      ],
+      "missingConcepts": [
+        "No mention of the core BFS algorithm steps (enqueue start node, process neighbors, mark visited)",
+        "Does not explain how BFS explores level by level (breadth-wise expansion)",
+        "Missing discussion of visited set to prevent revisiting nodes and infinite loops in cyclic graphs",
+        "No explanation of time/space complexity (O(V + E))",
+        "Does not describe the purpose or applications of BFS (shortest path in unweighted graphs, connected components, etc.)",
+        "Missing the concept of distance tracking or level assignment during traversal"
+      ],
+      "misconceptions": [
+        "Oversimplifies BFS to just 'using a queue for FIFO' without explaining the actual traversal logic or why FIFO ordering produces breadth-first exploration"
+      ],
+      "feedback": "You've correctly identified that BFS uses a queue with FIFO ordering, which is a good starting point. However, your explanation is incomplete. BFS is fundamentally about exploring all neighbors at the present depth before moving to nodes at the next depth level. The FIFO property of the queue ensures this level-by-level exploration. You should also explain the visited set to avoid cycles, the step-by-step algorithm, and the practical applications like finding shortest paths in unweighted graphs. Try expanding your explanation to cover these essential components.",
+      "conceptStateBefore": "LEARNING",
+      "conceptStateAfter": "UNKNOWN",
+      "createdAt": "2026-08-22T08:20:06.804Z"
+    },
+    {
       "id": "eea22c8e-8c3f-4660-bfa7-075e7f87b15e",
       "goalId": "7ccaaa57-3105-4e8c-9f55-fc0cc7717ef9",
       "userId": "d9f14c39-21ec-4036-8f35-b938ba7ec6d0",
@@ -8823,9 +12422,86 @@
         "Clear mathematical invariant explanation of why greedy relaxation works",
         "Contrasts space & time complexity with Bellman-Ford"
       ]
+    },
+    {
+      "id": "8b6b8c54-d029-436c-8d13-d43e99b44f6e",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "conceptName": "Breadth-First Search (BFS)",
+      "title": "BFS Graph Traversal Algorithm with Queue Visualization",
+      "type": "YOUTUBE_VIDEO",
+      "url": "https://www.youtube.com/watch?v=oDqjPvD54Ss",
+      "durationMinutes": 18,
+      "level": "BEGINNER",
+      "rating": 4.9,
+      "whyRecommended": [
+        "Matches your preference for visual explanations",
+        "Covers your current BFS level-order knowledge gap",
+        "18 minutes: fits today’s available 45-minute study block",
+        "Includes animated queue state transitions"
+      ]
+    },
+    {
+      "id": "24063bf3-12ec-426e-b5f5-f6b64be0c067",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "conceptName": "Depth-First Search (DFS)",
+      "title": "DFS Recursion & Backtracking Deep Dive",
+      "type": "YOUTUBE_VIDEO",
+      "url": "https://www.youtube.com/watch?v=7fujbpJ0LB4",
+      "durationMinutes": 24,
+      "level": "INTERMEDIATE",
+      "rating": 4.8,
+      "whyRecommended": [
+        "Step-by-step call stack diagram for recursive tree branches",
+        "Direct prerequisite for Topological Sort in Week 3",
+        "Includes 3 practical cycle detection interview questions"
+      ]
+    },
+    {
+      "id": "e2043af7-a592-4497-9f05-33c785deed42",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "conceptName": "Breadth-First Search (BFS)",
+      "title": "LeetCode 994: Rotting Oranges (Multi-source BFS)",
+      "type": "PRACTICE_PROBLEM",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "durationMinutes": 25,
+      "level": "INTERMEDIATE",
+      "rating": 4.9,
+      "whyRecommended": [
+        "High-frequency interview question tested at Google, Meta, Amazon",
+        "Builds on 2D grid matrix traversals with level time simulation",
+        "Reinforces your hands-on coding preference"
+      ]
+    },
+    {
+      "id": "f8fc001d-66aa-4c20-8a9b-34de71815924",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "title": "Dijkstra’s Algorithm with Priority Queue (Min-Heap)",
+      "type": "ARTICLE",
+      "url": "https://cp-algorithms.com/graph/dijkstra.html",
+      "durationMinutes": 15,
+      "level": "INTERMEDIATE",
+      "rating": 4.7,
+      "whyRecommended": [
+        "Clear mathematical invariant explanation of why greedy relaxation works",
+        "Contrasts space & time complexity with Bellman-Ford"
+      ]
     }
   ],
   "adaptiveEvents": [
+    {
+      "id": "af2e4df6-b587-468c-ac0c-07dfcf237507",
+      "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
+      "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "triggerType": "QUIZ_GAP",
+      "detectedGapConcept": "Recursion & DFS Call Stack",
+      "adjustmentsSummary": "Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\".",
+      "details": [
+        "Added \"Recursion & DFS Call Stack Prerequisites Refresher\" (35 min)",
+        "Added \"Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises\" (40 min)"
+      ],
+      "timestamp": "2026-08-22T08:20:28.257Z"
+    },
     {
       "id": "6f9470cd-99c0-4ada-aaa0-5f3157e94034",
       "goalId": "2e5c4ea8-80be-4e54-b68c-5ece7cdce39a",

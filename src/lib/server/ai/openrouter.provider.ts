@@ -28,7 +28,8 @@ export class OpenRouterLLMProvider implements LLMProvider {
 
 	constructor() {
 		this.apiKey = getEnvValue('OPENROUTER_API_KEY') || '';
-		this.model = getEnvValue('OPENROUTER_MODEL') || 'openrouter/free';
+		// Default to a confirmed working free model with JSON output support
+		this.model = getEnvValue('OPENROUTER_MODEL') || 'poolside/laguna-s-2.1:free';
 	}
 
 	public getApiKey(): string {
@@ -36,7 +37,7 @@ export class OpenRouterLLMProvider implements LLMProvider {
 	}
 
 	public getModel(): string {
-		return getEnvValue('OPENROUTER_MODEL') || this.model || 'openrouter/free';
+		return getEnvValue('OPENROUTER_MODEL') || this.model || 'poolside/laguna-s-2.1:free';
 	}
 
 	public isAvailable(): boolean {
@@ -52,9 +53,11 @@ export class OpenRouterLLMProvider implements LLMProvider {
 		const key = this.getApiKey();
 		const model = this.getModel();
 
+		console.log(`[OpenRouter] Calling model: ${model}, messages: ${messages.length}`);
+
 		const response = await fetch(`${this.baseUrl}/chat/completions`, {
 			method: 'POST',
-			signal: AbortSignal.timeout(3000),
+			signal: AbortSignal.timeout(90_000), // 90s — LLM calls need time
 			headers: {
 				'Content-Type': 'application/json',
 				Authorization: `Bearer ${key}`,
@@ -68,18 +71,21 @@ export class OpenRouterLLMProvider implements LLMProvider {
 					content: m.content
 				})),
 				temperature: options?.temperature ?? 0.3,
-				max_tokens: options?.maxTokens ?? 2000,
+				max_tokens: options?.maxTokens ?? 4000,
 				...(options?.responseFormat === 'json_object' ? { response_format: { type: 'json_object' } } : {})
 			})
 		});
 
 		if (!response.ok) {
 			const errText = await response.text();
+			console.error(`[OpenRouter] API error (${response.status}): ${errText}`);
 			throw new Error(`OpenRouter API error (${response.status}): ${errText}`);
 		}
 
 		const data = (await response.json()) as any;
-		return data.choices?.[0]?.message?.content || '';
+		const content = data.choices?.[0]?.message?.content || '';
+		console.log(`[OpenRouter] Response received, length: ${content.length}`);
+		return content;
 	}
 
 	public async completeJson<T = unknown>(messages: LLMMessage[], options?: LLMCompletionOptions): Promise<T> {
@@ -96,7 +102,12 @@ export class OpenRouterLLMProvider implements LLMProvider {
 			cleaned = cleaned.replace(/^```\s*/, '').replace(/\s*```$/, '');
 		}
 
-		return JSON.parse(cleaned) as T;
+		try {
+			return JSON.parse(cleaned) as T;
+		} catch (e) {
+			console.error('[OpenRouter] JSON parse failed. Raw response:', raw.slice(0, 500));
+			throw new Error(`OpenRouter returned invalid JSON: ${String(e)}`);
+		}
 	}
 }
 
