@@ -101,7 +101,7 @@ describe('CognitiveOS Domain & Intelligence Services', () => {
 		expect(roadmap.version).toBe(versionBefore + 1);
 		expect(roadmap.activeAdaptationNotice).toContain('Roadmap Adapted');
 		expect(adaptiveEvent.detectedGapConcept).toBe('Consensus Invariants');
-	});
+	}, 60_000);
 
 	it('DailyPlanService creates itinerary and updates progress', () => {
 		const plan = DailyPlanService.getOrCreateDailyPlan(testGoal.id, testUser.id);

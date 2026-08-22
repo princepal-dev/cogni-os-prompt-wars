@@ -191,6 +191,78 @@
       "email": "ravii@gmail.com",
       "name": "Ravi Ram",
       "createdAt": "2026-08-22T07:37:32.814Z"
+    },
+    {
+      "id": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "email": "test-runner-1787387245385@example.com",
+      "name": "Test Runner",
+      "createdAt": "2026-08-22T08:27:25.404Z"
+    },
+    {
+      "id": "e4e3f5d4-ae85-408f-96d2-cec8be89d08d",
+      "email": "test-1787387245411@example.com",
+      "name": "Test User",
+      "createdAt": "2026-08-22T08:27:25.427Z"
+    },
+    {
+      "id": "e4e3f5d4-ae85-408f-96d2-cec8be89d08d",
+      "email": "test-1787387245411@example.com",
+      "name": "Test User",
+      "createdAt": "2026-08-22T08:27:25.427Z"
+    },
+    {
+      "id": "6d133c78-05d6-46ab-a9c5-fc44e169b818",
+      "email": "reset-1787387245447@example.com",
+      "name": "Reset User",
+      "createdAt": "2026-08-22T08:27:25.463Z"
+    },
+    {
+      "id": "6d133c78-05d6-46ab-a9c5-fc44e169b818",
+      "email": "reset-1787387245447@example.com",
+      "name": "Reset User",
+      "createdAt": "2026-08-22T08:27:25.463Z"
+    },
+    {
+      "id": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "email": "quiz-test-1787387476302@test.com",
+      "name": "Quiz Tester",
+      "createdAt": "2026-08-22T08:31:16.321Z"
+    },
+    {
+      "id": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "email": "test-runner-1787387515988@example.com",
+      "name": "Test Runner",
+      "createdAt": "2026-08-22T08:31:56.007Z"
+    },
+    {
+      "id": "7677965a-5336-440e-a763-da6e5b115475",
+      "email": "test-1787387516014@example.com",
+      "name": "Test User",
+      "createdAt": "2026-08-22T08:31:56.033Z"
+    },
+    {
+      "id": "7677965a-5336-440e-a763-da6e5b115475",
+      "email": "test-1787387516014@example.com",
+      "name": "Test User",
+      "createdAt": "2026-08-22T08:31:56.033Z"
+    },
+    {
+      "id": "046b6940-cb85-4433-8fa1-f050c98912d1",
+      "email": "reset-1787387516057@example.com",
+      "name": "Reset User",
+      "createdAt": "2026-08-22T08:31:56.074Z"
+    },
+    {
+      "id": "046b6940-cb85-4433-8fa1-f050c98912d1",
+      "email": "reset-1787387516057@example.com",
+      "name": "Reset User",
+      "createdAt": "2026-08-22T08:31:56.074Z"
+    },
+    {
+      "id": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
+      "email": "quiz-test-1787387543153@test.com",
+      "name": "Quiz Tester",
+      "createdAt": "2026-08-22T08:32:23.172Z"
     }
   ],
   "passwordHashes": {
@@ -218,7 +290,15 @@
     "91e46536-b097-4732-8a61-a96f8848ca74": "a5f8f64dcbeb357e87bf32fe7dd8acbe:56210b6628fcf0f308557d22db434c75e2ec7dad8cd600bef2c742d9ed08cf75c669966dab8f5292b11e5711b96e3e135274613012c4e7dfb9b749746c9fafae",
     "e8af8a93-7a2c-4280-b909-58a874b32d43": "7a0c6bce1281d108fcb42ee5eb522a85:d722e8f279bc32d673665b821d896b4f5405b2b9ce79fa41ef3beebd86137cd1435e1a48a48fdd47b66734bf5f36000c0d5e1c7baf2b04b6158184c45cb2529f",
     "954f6c25-5b54-4679-b121-25e80e371d3c": "8e20bfb5af59b1d45cc5e10cf50518d3:50ea2c35707b917b491187eab97dd05946a774373101ce0c146d03e117f6f2f284fcf89a2193e753f30e5066e9298d2dbd94aab3b776de9a1b132602254bfdab",
-    "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88": "47f8f8e19052c040a6f0b9fd9bbd7a35:c26b0b9ae7bc9c1bdfac7f8cb83fc9d32d41228b40e95428a3775d9c909c0d9f6dc2c356a91a49fc275c4ca75ce1f25427f64da577f62547d66e2bfd8bc7b683"
+    "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88": "47f8f8e19052c040a6f0b9fd9bbd7a35:c26b0b9ae7bc9c1bdfac7f8cb83fc9d32d41228b40e95428a3775d9c909c0d9f6dc2c356a91a49fc275c4ca75ce1f25427f64da577f62547d66e2bfd8bc7b683",
+    "94b30644-52b7-4e9c-a40c-e62307ef3aec": "4470ef5cac4a0cf2c28e39dbaae3d731:4db87b2c4580a67f2f762cb52dfe4ba77a12f149852f62f2e3a1b5ad54fbd6c37b344d13d67e62dc7b3220a8cbae03fa50f24c6ab181a6e6715e1c7ef1237d5d",
+    "e4e3f5d4-ae85-408f-96d2-cec8be89d08d": "46e7c6eaa91792ac8d4e6b86b5b5bf37:66a2bbdbf4f186b613e37cb16d2fc59474640301fa4f907d608ab90e542e9d90f9578f17c58bd65800ab73f06a7a76cec3b452adb4640f14585c4e8af9aae236",
+    "6d133c78-05d6-46ab-a9c5-fc44e169b818": "98e7f0bfa97ea89e2c66c25e794fad75:8ef189774ef3622bff1149f872d14a26b7dbcb3db9faae70f6045e108752f0465df4951ce1787759ad222608215f1ae4f975c99b1f8337ab32f26cb2327a92a1",
+    "68ea6b1c-2b22-4a87-82f2-e272b9c980f3": "c8e85449a5f74a36740563fd824cae59:29fe7c933c66bd0786d383c58f26c726f7c9f8f40214a58906497bf140919f8f5bd6675658bd614a6160c49c640fd0c807b201dffb9e557828e4a7d4828530d6",
+    "7ffb823d-497d-4f8e-bc99-944bd2db91aa": "4868c1037a893dfdc0673bbdf6473812:80550ec9d2b3243f3b327470869a8e1af5293c9a1af4b174847e4ada17d57692780f84cf112f27d62207d8610c5c06eedb55e5e6d986bbe6141088c5077d14fe",
+    "7677965a-5336-440e-a763-da6e5b115475": "c10a545b80ccea0cc296c055d0d6056c:68184f1c534ad3bd7e62fca25bbf3ef637d392ac0983169105bdee63156a3910cf48dd1cad6a62daf86a12280874e9c962cce88abf9055c4814a7c8b6f343746",
+    "046b6940-cb85-4433-8fa1-f050c98912d1": "b730daef2253ee04eee32aeca9ac632a:f5d0c99d75104023e9fba8d140b25490520b4e1c181dfcf2f9489b90ab705cdd993d6aecb0d1744ff701c953aaaa71a3642ed52ccad809bf29a25b8f07619c7d",
+    "3c3d2ede-691a-4401-9073-ce8d08e0552c": "2ce803697023edc20d58bba2551257fd:959d70ddd62f422b2a52caa8c60550a0332ed93f617a32a294a758a224d0643470bceffbdee2fcd4938553be025629e0f4952550c0929bd6469e3ab49ae0aca9"
   },
   "passwordResetTokens": [],
   "sessions": [
@@ -508,6 +588,76 @@
       "token": "f6f69c815118de577ff80dbaedebd5626b5aaa1f2e07b3303390242a101de109",
       "expiresAt": "2026-09-21T07:50:19.133Z",
       "createdAt": "2026-08-22T07:50:19.133Z"
+    },
+    {
+      "id": "e632e97b-b7ea-431f-84b0-01861217d93a",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "token": "837ea93c335e966bf40b28fe1be00884b500ed4140eee286e4abacb193328507",
+      "expiresAt": "2026-09-21T08:27:25.406Z",
+      "createdAt": "2026-08-22T08:27:25.406Z"
+    },
+    {
+      "id": "925c3ad4-aa45-4f4d-a0f0-147f6ace12e0",
+      "userId": "e4e3f5d4-ae85-408f-96d2-cec8be89d08d",
+      "token": "e06fe3a3509173d7962accb21a5eb87773cb280f47e6f7ac17033ed6fd6b7afd",
+      "expiresAt": "2026-09-21T08:27:25.429Z",
+      "createdAt": "2026-08-22T08:27:25.429Z"
+    },
+    {
+      "id": "19ce29f4-dc33-4296-ae8e-7b7673480bc2",
+      "userId": "e4e3f5d4-ae85-408f-96d2-cec8be89d08d",
+      "token": "7d265bb0ec07c0bf7bfd71c33e0b4df94874223705fed67079848649de8b3650",
+      "expiresAt": "2026-09-21T08:27:25.446Z",
+      "createdAt": "2026-08-22T08:27:25.446Z"
+    },
+    {
+      "id": "bdbeefc2-3bac-4119-be19-f8c9c9dcbc4d",
+      "userId": "6d133c78-05d6-46ab-a9c5-fc44e169b818",
+      "token": "62c09dd066d5391810a34be19e1756966efae12e72dc4cd5c69faff55f538e5b",
+      "expiresAt": "2026-09-21T08:27:25.500Z",
+      "createdAt": "2026-08-22T08:27:25.500Z"
+    },
+    {
+      "id": "c30838c4-5408-4747-9ea0-3707a57caf25",
+      "userId": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "token": "e14de19710bef65bf1142e91fcb40e82da96d2c3d0a246509112cb6280d69a0f",
+      "expiresAt": "2026-09-21T08:31:16.323Z",
+      "createdAt": "2026-08-22T08:31:16.323Z"
+    },
+    {
+      "id": "f0a58816-b843-4267-a871-87ac875b461d",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "token": "acab9750c7dddf30c6ef3a0f71ef90d25d8cdbc655652dcbf488db8b67634aa3",
+      "expiresAt": "2026-09-21T08:31:56.009Z",
+      "createdAt": "2026-08-22T08:31:56.009Z"
+    },
+    {
+      "id": "a584ea67-bc7d-49a6-896a-6e210e92e9e9",
+      "userId": "7677965a-5336-440e-a763-da6e5b115475",
+      "token": "e37cf4a04a571fb079446137edaff3749012d1051e1e50dd7a60537e61c28e23",
+      "expiresAt": "2026-09-21T08:31:56.035Z",
+      "createdAt": "2026-08-22T08:31:56.035Z"
+    },
+    {
+      "id": "7e861b58-8021-4f86-a651-b4a56e727593",
+      "userId": "7677965a-5336-440e-a763-da6e5b115475",
+      "token": "f846146bd8e92dacbd686eed4e04aa6925b7b5e1dfacca5eb43e78f8aed1349f",
+      "expiresAt": "2026-09-21T08:31:56.056Z",
+      "createdAt": "2026-08-22T08:31:56.056Z"
+    },
+    {
+      "id": "6b7c3dc1-28ec-44f5-b1a4-32664ed4cf3a",
+      "userId": "046b6940-cb85-4433-8fa1-f050c98912d1",
+      "token": "ee59efaaf14e6c1e64b2e575d9b4c943f732c6dcb870ba8f0391cf899c280f2e",
+      "expiresAt": "2026-09-21T08:31:56.116Z",
+      "createdAt": "2026-08-22T08:31:56.116Z"
+    },
+    {
+      "id": "0ef3f3a6-fa6d-48e9-a79c-a0cbac6366ae",
+      "userId": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
+      "token": "16b2ded0ed7457c9bfc69279ebeff5443831ca71dfbd627b6308e4678362fb25",
+      "expiresAt": "2026-09-21T08:32:23.176Z",
+      "createdAt": "2026-08-22T08:32:23.176Z"
     }
   ],
   "profiles": [
@@ -905,6 +1055,142 @@
     {
       "id": "e224da54-4c24-47ab-9f61-4893b298092a",
       "userId": "d435ac0b-cbd9-48c3-a491-cbe7cb84bc88",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "eea91a19-d281-4fa0-8218-452f9b1d14de",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "2f0cebbc-09e2-4706-8a42-cc95195534b6",
+      "userId": "e4e3f5d4-ae85-408f-96d2-cec8be89d08d",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "7b98c847-cae1-4fd5-ab7c-dcaca604b673",
+      "userId": "6d133c78-05d6-46ab-a9c5-fc44e169b818",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "45f6bef3-b063-4c78-8106-e0cefa3636bb",
+      "userId": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "2011459b-d6ca-457f-9ab9-a6efc95e56e0",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "131aaa81-6059-43c1-819d-b518ce007a44",
+      "userId": "7677965a-5336-440e-a763-da6e5b115475",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "82f7abdf-b767-4f63-a51b-5cc386cb983c",
+      "userId": "046b6940-cb85-4433-8fa1-f050c98912d1",
+      "background": "Developer learning computer science and domain skills",
+      "dailyStudyMinutes": 45,
+      "studyDaysPerWeek": 5,
+      "preferredModalities": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "inferredSessionPace": "BALANCED",
+      "preferredSessionDurationMin": 30,
+      "bestStudyTime": "EVENING",
+      "streakDays": 1,
+      "lastActiveDate": "2026-08-22"
+    },
+    {
+      "id": "12ccd333-abe7-4129-ab7f-7f447df51c34",
+      "userId": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
       "background": "Developer learning computer science and domain skills",
       "dailyStudyMinutes": 45,
       "studyDaysPerWeek": 5,
@@ -1858,6 +2144,270 @@
       "masteredConceptsCount": 0,
       "createdAt": "2026-08-22T08:05:36.064Z",
       "updatedAt": "2026-08-22T08:05:36.064Z"
+    },
+    {
+      "id": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "title": "Distributed Systems & Consensus",
+      "motivation": "CAREER",
+      "targetOutcome": "Design fault-tolerant distributed storage systems",
+      "deadline": "2026-09-21",
+      "dailyMinutesBudget": 45,
+      "studyDaysPerWeek": 5,
+      "preferences": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "initialKnowledgeLevel": "BASIC",
+      "status": "ACTIVE",
+      "feasibility": {
+        "estimatedRequiredHours": 32,
+        "availableLearningHours": 16,
+        "requiredPracticeHours": 14,
+        "requiredReviewHours": 6,
+        "totalEstimatedHours": 32,
+        "gapHours": 16,
+        "rating": "OVERAMBITIOUS",
+        "feasibilityScore": 40,
+        "summary": "Your goal requires ~32h. With 45m/day you have ~16h. This pace is overambitious.",
+        "recommendations": [
+          "Spend 40% on visual concepts and 60% on hands-on coding problems.",
+          "Utilize 5-minute daily flashcards to prevent spaced memory decay.",
+          "Prioritize core traversal mastery before jumping into advanced algorithms."
+        ],
+        "alternatives": [
+          {
+            "id": "A",
+            "title": "Increase Daily Study Time",
+            "description": "Bump daily study from 45m to 65m per session.",
+            "actionType": "INCREASE_TIME",
+            "impactSummary": "Adds +7h of total practice time."
+          },
+          {
+            "id": "B",
+            "title": "Focus on High-ROI Core Scope",
+            "description": "Master core foundations first; defer niche edge topics.",
+            "actionType": "REDUCE_SCOPE",
+            "impactSummary": "Reduces required study hours by ~8 hours."
+          },
+          {
+            "id": "C",
+            "title": "Extend Deadline by 10 Days",
+            "description": "Extend target date from 30 to 40 days.",
+            "actionType": "EXTEND_DEADLINE",
+            "impactSummary": "Smooths the learning curve without requiring extra daily hours."
+          },
+          {
+            "id": "D",
+            "title": "Prioritize Top Interview Patterns",
+            "description": "Focus strictly on top frequent interview problem archetypes.",
+            "actionType": "PRIORITIZE_CORE",
+            "impactSummary": "Maximizes readiness per hour spent."
+          }
+        ]
+      },
+      "totalConceptsCount": 2,
+      "masteredConceptsCount": 0,
+      "createdAt": "2026-08-22T08:27:25.407Z",
+      "updatedAt": "2026-08-22T08:27:25.407Z"
+    },
+    {
+      "id": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "userId": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "title": "BFS & DFS Traversals",
+      "motivation": "CAREER",
+      "targetOutcome": "Implement graph traversals",
+      "deadline": "2026-09-21",
+      "dailyMinutesBudget": 60,
+      "studyDaysPerWeek": 5,
+      "preferences": [
+        "CODING"
+      ],
+      "initialKnowledgeLevel": "BASIC",
+      "status": "ACTIVE",
+      "feasibility": {
+        "estimatedRequiredHours": 32,
+        "availableLearningHours": 21,
+        "requiredPracticeHours": 14,
+        "requiredReviewHours": 6,
+        "totalEstimatedHours": 32,
+        "gapHours": 11,
+        "rating": "AGGRESSIVE",
+        "feasibilityScore": 62,
+        "summary": "Your goal requires ~32h. With 60m/day you have ~21h. This pace is aggressive.",
+        "recommendations": [
+          "Spend 40% on visual concepts and 60% on hands-on coding problems.",
+          "Utilize 5-minute daily flashcards to prevent spaced memory decay.",
+          "Prioritize core traversal mastery before jumping into advanced algorithms."
+        ],
+        "alternatives": [
+          {
+            "id": "A",
+            "title": "Increase Daily Study Time",
+            "description": "Bump daily study from 60m to 80m per session.",
+            "actionType": "INCREASE_TIME",
+            "impactSummary": "Adds +7h of total practice time."
+          },
+          {
+            "id": "B",
+            "title": "Focus on High-ROI Core Scope",
+            "description": "Master core foundations first; defer niche edge topics.",
+            "actionType": "REDUCE_SCOPE",
+            "impactSummary": "Reduces required study hours by ~8 hours."
+          },
+          {
+            "id": "C",
+            "title": "Extend Deadline by 10 Days",
+            "description": "Extend target date from 30 to 40 days.",
+            "actionType": "EXTEND_DEADLINE",
+            "impactSummary": "Smooths the learning curve without requiring extra daily hours."
+          },
+          {
+            "id": "D",
+            "title": "Prioritize Top Interview Patterns",
+            "description": "Focus strictly on top frequent interview problem archetypes.",
+            "actionType": "PRIORITIZE_CORE",
+            "impactSummary": "Maximizes readiness per hour spent."
+          }
+        ]
+      },
+      "totalConceptsCount": 2,
+      "masteredConceptsCount": 0,
+      "createdAt": "2026-08-22T08:31:16.325Z",
+      "updatedAt": "2026-08-22T08:31:16.325Z"
+    },
+    {
+      "id": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "title": "Distributed Systems & Consensus",
+      "motivation": "CAREER",
+      "targetOutcome": "Design fault-tolerant distributed storage systems",
+      "deadline": "2026-09-21",
+      "dailyMinutesBudget": 45,
+      "studyDaysPerWeek": 5,
+      "preferences": [
+        "VIDEOS",
+        "CODING",
+        "PRACTICE_PROBLEMS"
+      ],
+      "initialKnowledgeLevel": "BASIC",
+      "status": "ACTIVE",
+      "feasibility": {
+        "estimatedRequiredHours": 32,
+        "availableLearningHours": 16,
+        "requiredPracticeHours": 14,
+        "requiredReviewHours": 6,
+        "totalEstimatedHours": 32,
+        "gapHours": 16,
+        "rating": "OVERAMBITIOUS",
+        "feasibilityScore": 40,
+        "summary": "Your goal requires ~32h. With 45m/day you have ~16h. This pace is overambitious.",
+        "recommendations": [
+          "Spend 40% on visual concepts and 60% on hands-on coding problems.",
+          "Utilize 5-minute daily flashcards to prevent spaced memory decay.",
+          "Prioritize core traversal mastery before jumping into advanced algorithms."
+        ],
+        "alternatives": [
+          {
+            "id": "A",
+            "title": "Increase Daily Study Time",
+            "description": "Bump daily study from 45m to 65m per session.",
+            "actionType": "INCREASE_TIME",
+            "impactSummary": "Adds +7h of total practice time."
+          },
+          {
+            "id": "B",
+            "title": "Focus on High-ROI Core Scope",
+            "description": "Master core foundations first; defer niche edge topics.",
+            "actionType": "REDUCE_SCOPE",
+            "impactSummary": "Reduces required study hours by ~8 hours."
+          },
+          {
+            "id": "C",
+            "title": "Extend Deadline by 10 Days",
+            "description": "Extend target date from 30 to 40 days.",
+            "actionType": "EXTEND_DEADLINE",
+            "impactSummary": "Smooths the learning curve without requiring extra daily hours."
+          },
+          {
+            "id": "D",
+            "title": "Prioritize Top Interview Patterns",
+            "description": "Focus strictly on top frequent interview problem archetypes.",
+            "actionType": "PRIORITIZE_CORE",
+            "impactSummary": "Maximizes readiness per hour spent."
+          }
+        ]
+      },
+      "totalConceptsCount": 2,
+      "masteredConceptsCount": 0,
+      "createdAt": "2026-08-22T08:31:56.010Z",
+      "updatedAt": "2026-08-22T08:31:56.010Z"
+    },
+    {
+      "id": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "userId": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
+      "title": "BFS & DFS Traversals",
+      "motivation": "CAREER",
+      "targetOutcome": "Implement graph traversals",
+      "deadline": "2026-09-21",
+      "dailyMinutesBudget": 60,
+      "studyDaysPerWeek": 5,
+      "preferences": [
+        "CODING"
+      ],
+      "initialKnowledgeLevel": "BASIC",
+      "status": "ACTIVE",
+      "feasibility": {
+        "estimatedRequiredHours": 32,
+        "availableLearningHours": 21,
+        "requiredPracticeHours": 14,
+        "requiredReviewHours": 6,
+        "totalEstimatedHours": 32,
+        "gapHours": 11,
+        "rating": "AGGRESSIVE",
+        "feasibilityScore": 62,
+        "summary": "Your goal requires ~32h. With 60m/day you have ~21h. This pace is aggressive.",
+        "recommendations": [
+          "Spend 40% on visual concepts and 60% on hands-on coding problems.",
+          "Utilize 5-minute daily flashcards to prevent spaced memory decay.",
+          "Prioritize core traversal mastery before jumping into advanced algorithms."
+        ],
+        "alternatives": [
+          {
+            "id": "A",
+            "title": "Increase Daily Study Time",
+            "description": "Bump daily study from 60m to 80m per session.",
+            "actionType": "INCREASE_TIME",
+            "impactSummary": "Adds +7h of total practice time."
+          },
+          {
+            "id": "B",
+            "title": "Focus on High-ROI Core Scope",
+            "description": "Master core foundations first; defer niche edge topics.",
+            "actionType": "REDUCE_SCOPE",
+            "impactSummary": "Reduces required study hours by ~8 hours."
+          },
+          {
+            "id": "C",
+            "title": "Extend Deadline by 10 Days",
+            "description": "Extend target date from 30 to 40 days.",
+            "actionType": "EXTEND_DEADLINE",
+            "impactSummary": "Smooths the learning curve without requiring extra daily hours."
+          },
+          {
+            "id": "D",
+            "title": "Prioritize Top Interview Patterns",
+            "description": "Focus strictly on top frequent interview problem archetypes.",
+            "actionType": "PRIORITIZE_CORE",
+            "impactSummary": "Maximizes readiness per hour spent."
+          }
+        ]
+      },
+      "totalConceptsCount": 2,
+      "masteredConceptsCount": 0,
+      "createdAt": "2026-08-22T08:32:23.177Z",
+      "updatedAt": "2026-08-22T08:32:23.177Z"
     }
   ],
   "concepts": [
@@ -3374,6 +3924,254 @@
       "estimatedHoursToLearn": 2,
       "prerequisites": [],
       "subconcepts": []
+    },
+    {
+      "id": "c-fund-eaec",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Core Foundations",
+      "slug": "core-foundations",
+      "category": "Fundamentals",
+      "description": "Fundamental principles and prerequisites for Distributed Systems & Consensus.",
+      "importance": "CRITICAL",
+      "estimatedHoursToLearn": 3,
+      "prerequisites": [],
+      "subconcepts": [
+        "Terminology",
+        "Architecture"
+      ]
+    },
+    {
+      "id": "c-core-eaec",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Key Implementation Patterns",
+      "slug": "implementation-patterns",
+      "category": "Practice",
+      "description": "Hands-on techniques and problem solving.",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 5,
+      "prerequisites": [
+        "Core Foundations"
+      ],
+      "subconcepts": [
+        "Best Practices",
+        "Debugging"
+      ]
+    },
+    {
+      "id": "c-8d60e4b4",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Breadth-First Search (BFS)",
+      "slug": "breadth-first-search-(bfs)",
+      "category": "Concepts",
+      "description": "Core concept: Breadth-First Search (BFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-472684c6",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Depth-First Search (DFS)",
+      "slug": "depth-first-search-(dfs)",
+      "category": "Concepts",
+      "description": "Core concept: Depth-First Search (DFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-1fdfd209",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Recursion Fundamentals",
+      "slug": "recursion-fundamentals",
+      "category": "Concepts",
+      "description": "Core concept: Recursion Fundamentals",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-2dd568e2",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Dijkstra & Shortest Paths",
+      "slug": "dijkstra-&-shortest-paths",
+      "category": "Concepts",
+      "description": "Core concept: Dijkstra & Shortest Paths",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-6ec260d2",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "name": "Graph Representation",
+      "slug": "graph-representation",
+      "category": "Concepts",
+      "description": "Core concept: Graph Representation",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-fund-2035",
+      "goalId": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "name": "Core Foundations",
+      "slug": "core-foundations",
+      "category": "Fundamentals",
+      "description": "Fundamental principles and prerequisites for BFS & DFS Traversals.",
+      "importance": "CRITICAL",
+      "estimatedHoursToLearn": 3,
+      "prerequisites": [],
+      "subconcepts": [
+        "Terminology",
+        "Architecture"
+      ]
+    },
+    {
+      "id": "c-core-2035",
+      "goalId": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "name": "Key Implementation Patterns",
+      "slug": "implementation-patterns",
+      "category": "Practice",
+      "description": "Hands-on techniques and problem solving.",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 5,
+      "prerequisites": [
+        "Core Foundations"
+      ],
+      "subconcepts": [
+        "Best Practices",
+        "Debugging"
+      ]
+    },
+    {
+      "id": "c-fund-972f",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Core Foundations",
+      "slug": "core-foundations",
+      "category": "Fundamentals",
+      "description": "Fundamental principles and prerequisites for Distributed Systems & Consensus.",
+      "importance": "CRITICAL",
+      "estimatedHoursToLearn": 3,
+      "prerequisites": [],
+      "subconcepts": [
+        "Terminology",
+        "Architecture"
+      ]
+    },
+    {
+      "id": "c-core-972f",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Key Implementation Patterns",
+      "slug": "implementation-patterns",
+      "category": "Practice",
+      "description": "Hands-on techniques and problem solving.",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 5,
+      "prerequisites": [
+        "Core Foundations"
+      ],
+      "subconcepts": [
+        "Best Practices",
+        "Debugging"
+      ]
+    },
+    {
+      "id": "c-aa741eb1",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Breadth-First Search (BFS)",
+      "slug": "breadth-first-search-(bfs)",
+      "category": "Concepts",
+      "description": "Core concept: Breadth-First Search (BFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-e9272bad",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Depth-First Search (DFS)",
+      "slug": "depth-first-search-(dfs)",
+      "category": "Concepts",
+      "description": "Core concept: Depth-First Search (DFS)",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-465b4404",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Recursion Fundamentals",
+      "slug": "recursion-fundamentals",
+      "category": "Concepts",
+      "description": "Core concept: Recursion Fundamentals",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-0b821fc2",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Dijkstra & Shortest Paths",
+      "slug": "dijkstra-&-shortest-paths",
+      "category": "Concepts",
+      "description": "Core concept: Dijkstra & Shortest Paths",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-5dc53244",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "name": "Graph Representation",
+      "slug": "graph-representation",
+      "category": "Concepts",
+      "description": "Core concept: Graph Representation",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 2,
+      "prerequisites": [],
+      "subconcepts": []
+    },
+    {
+      "id": "c-fund-96a5",
+      "goalId": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "name": "Core Foundations",
+      "slug": "core-foundations",
+      "category": "Fundamentals",
+      "description": "Fundamental principles and prerequisites for BFS & DFS Traversals.",
+      "importance": "CRITICAL",
+      "estimatedHoursToLearn": 3,
+      "prerequisites": [],
+      "subconcepts": [
+        "Terminology",
+        "Architecture"
+      ]
+    },
+    {
+      "id": "c-core-96a5",
+      "goalId": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "name": "Key Implementation Patterns",
+      "slug": "implementation-patterns",
+      "category": "Practice",
+      "description": "Hands-on techniques and problem solving.",
+      "importance": "CORE",
+      "estimatedHoursToLearn": 5,
+      "prerequisites": [
+        "Core Foundations"
+      ],
+      "subconcepts": [
+        "Best Practices",
+        "Debugging"
+      ]
     }
   ],
   "states": [
@@ -4923,10 +5721,540 @@
       "errorFrequency": 1,
       "recentMisconceptions": [],
       "notesCount": 0
+    },
+    {
+      "id": "0f357c86-6a8b-4e52-9127-c3ce684dba3d",
+      "conceptId": "c-fund-eaec",
+      "conceptName": "Core Foundations",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "DEVELOPING",
+      "masteryScore": 40,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:25.501Z",
+      "reviewDueAt": "2026-08-24T08:27:25.409Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "f804c83a-9355-4d84-8b9f-0bd33bf5778e",
+      "conceptId": "c-core-eaec",
+      "conceptName": "Key Implementation Patterns",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:25.409Z",
+      "reviewDueAt": "2026-08-24T08:27:25.409Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "3d30ae49-847c-49af-b550-0c9f507ca21a",
+      "conceptId": "c-8d60e4b4",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "LEARNING",
+      "masteryScore": 19,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:30.542Z",
+      "reviewDueAt": "2026-08-23T08:27:30.518Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "99b86db6-7d07-41dd-b22e-a55a8e90c0b3",
+      "conceptId": "c-472684c6",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:30.544Z",
+      "reviewDueAt": "2026-08-23T08:27:30.529Z",
+      "timesReviewed": 0,
+      "timesPracticed": 2,
+      "errorFrequency": 2,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "557507d5-b16a-424e-bba2-bd4bc115620a",
+      "conceptId": "c-1fdfd209",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "DEVELOPING",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:30.533Z",
+      "reviewDueAt": "2026-08-23T08:27:30.533Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "d02e52e1-f56f-4109-adb5-1870212e1e04",
+      "conceptId": "c-2dd568e2",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:30.547Z",
+      "reviewDueAt": "2026-08-23T08:27:30.547Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "1c9045c2-8c3e-4e40-884f-63ccf2d77748",
+      "conceptId": "c-6ec260d2",
+      "conceptName": "Graph Representation",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:27:30.549Z",
+      "reviewDueAt": "2026-08-23T08:27:30.549Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "0c93d09f-7240-42e0-ba17-e24f40c941f8",
+      "conceptId": "c-fund-2035",
+      "conceptName": "Core Foundations",
+      "goalId": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "userId": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:31:16.326Z",
+      "reviewDueAt": "2026-08-24T08:31:16.326Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "44844ed5-e03c-4f96-94b6-f36853c2191f",
+      "conceptId": "c-core-2035",
+      "conceptName": "Key Implementation Patterns",
+      "goalId": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "userId": "68ea6b1c-2b22-4a87-82f2-e272b9c980f3",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:31:16.327Z",
+      "reviewDueAt": "2026-08-24T08:31:16.327Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "7d4a38c4-d3fb-4e50-b24c-2ebd9397a9ff",
+      "conceptId": "c-fund-972f",
+      "conceptName": "Core Foundations",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "DEVELOPING",
+      "masteryScore": 40,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:31:56.117Z",
+      "reviewDueAt": "2026-08-24T08:31:56.012Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "41671671-ff14-4e11-8509-a52a2106619a",
+      "conceptId": "c-core-972f",
+      "conceptName": "Key Implementation Patterns",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:31:56.012Z",
+      "reviewDueAt": "2026-08-24T08:31:56.012Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "648bd3f2-4f5f-4670-9613-a92665f7aea8",
+      "conceptId": "c-aa741eb1",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "LEARNING",
+      "masteryScore": 19,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.136Z",
+      "reviewDueAt": "2026-08-23T08:32:23.114Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "4a43151b-3964-4563-bcf0-183c75aa2335",
+      "conceptId": "c-e9272bad",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.138Z",
+      "reviewDueAt": "2026-08-23T08:32:23.123Z",
+      "timesReviewed": 0,
+      "timesPracticed": 2,
+      "errorFrequency": 2,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "2b9e501e-2c92-4134-9feb-fb6644428e81",
+      "conceptId": "c-465b4404",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "DEVELOPING",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.127Z",
+      "reviewDueAt": "2026-08-23T08:32:23.127Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "69cf4e6b-1e18-4d51-9685-ee11cada910c",
+      "conceptId": "c-0b821fc2",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.142Z",
+      "reviewDueAt": "2026-08-23T08:32:23.142Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "bf84c0e1-14ab-49bb-9e86-0e49300a5576",
+      "conceptId": "c-5dc53244",
+      "conceptName": "Graph Representation",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.146Z",
+      "reviewDueAt": "2026-08-23T08:32:23.146Z",
+      "timesReviewed": 0,
+      "timesPracticed": 1,
+      "errorFrequency": 1,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "3a0b5eb3-6f83-4e1f-97de-2947d676531b",
+      "conceptId": "c-fund-96a5",
+      "conceptName": "Core Foundations",
+      "goalId": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "userId": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.179Z",
+      "reviewDueAt": "2026-08-24T08:32:23.179Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
+    },
+    {
+      "id": "817cd949-722a-440d-b645-32ac9a9061f8",
+      "conceptId": "c-core-96a5",
+      "conceptName": "Key Implementation Patterns",
+      "goalId": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "userId": "3c3d2ede-691a-4401-9073-ce8d08e0552c",
+      "state": "UNKNOWN",
+      "masteryScore": 0,
+      "recallStrength": 100,
+      "lastAssessedAt": "2026-08-22T08:32:23.179Z",
+      "reviewDueAt": "2026-08-24T08:32:23.179Z",
+      "timesReviewed": 0,
+      "timesPracticed": 0,
+      "errorFrequency": 0,
+      "recentMisconceptions": [],
+      "notesCount": 0
     }
   ],
   "relations": [],
   "timelineEvents": [
+    {
+      "id": "9a943577-1d7d-4be1-991a-79da99c70c6c",
+      "conceptId": "c-5dc53244",
+      "conceptName": "Graph Representation",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:32:23.147Z"
+    },
+    {
+      "id": "7dbbc41e-7f7c-47a7-b6bc-7ee94ef57832",
+      "conceptId": "c-0b821fc2",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:32:23.143Z"
+    },
+    {
+      "id": "ce8179be-707b-4cee-bfa5-5285d84de7cd",
+      "conceptId": "c-e9272bad",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "DEVELOPING",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:32:23.140Z"
+    },
+    {
+      "id": "4a128bbd-0e7e-49c0-a718-35e4f0c63b25",
+      "conceptId": "c-aa741eb1",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "INTRODUCED",
+      "newState": "LEARNING",
+      "previousMastery": 4,
+      "newMastery": 19,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 1/1 correct (25%)",
+      "timestamp": "2026-08-22T08:32:23.137Z"
+    },
+    {
+      "id": "12d5f729-e792-46c5-83bd-6526ee5837fa",
+      "conceptId": "c-465b4404",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Detected foundational gap in call stack unwind behavior during DFS practice.",
+      "timestamp": "2026-08-22T08:32:23.128Z"
+    },
+    {
+      "id": "d6e5eb4c-752b-4997-a328-3ece534731d4",
+      "conceptId": "c-e9272bad",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Struggled with recursion call stack and cycle backtracking in quiz attempt.",
+      "timestamp": "2026-08-22T08:32:23.124Z"
+    },
+    {
+      "id": "1059c11c-b1af-404e-a84f-8bb37245c98b",
+      "conceptId": "c-aa741eb1",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "INTRODUCED",
+      "previousMastery": 0,
+      "newMastery": 4,
+      "triggerType": "SPACED_DECAY",
+      "reason": "Flashcard recall rated: 4/4 (Next review in 1 days)",
+      "timestamp": "2026-08-22T08:32:23.115Z"
+    },
+    {
+      "id": "df4c7514-c699-4222-993d-dede50207a2e",
+      "conceptId": "c-fund-972f",
+      "conceptName": "Core Foundations",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 40,
+      "triggerType": "QUIZ",
+      "reason": "Passed assessment quiz",
+      "timestamp": "2026-08-22T08:31:56.118Z"
+    },
+    {
+      "id": "3f1d59df-590c-4f6a-9d15-0d84cd698f88",
+      "conceptId": "c-6ec260d2",
+      "conceptName": "Graph Representation",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:27:30.551Z"
+    },
+    {
+      "id": "9577baf1-705f-4334-93a7-325a30e4f2cb",
+      "conceptId": "c-2dd568e2",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:27:30.548Z"
+    },
+    {
+      "id": "9d8d8c0a-bfd1-4d91-a93e-70e946a6364b",
+      "conceptId": "c-472684c6",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "DEVELOPING",
+      "newState": "UNKNOWN",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 0/1 correct (25%)",
+      "timestamp": "2026-08-22T08:27:30.545Z"
+    },
+    {
+      "id": "44a4cc45-74c1-4bab-a3cd-d91eca45261a",
+      "conceptId": "c-8d60e4b4",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "INTRODUCED",
+      "newState": "LEARNING",
+      "previousMastery": 4,
+      "newMastery": 19,
+      "triggerType": "QUIZ",
+      "reason": "Quiz result: 1/1 correct (25%)",
+      "timestamp": "2026-08-22T08:27:30.543Z"
+    },
+    {
+      "id": "25f4d4e3-b130-469e-8c4c-81bf9749ffc0",
+      "conceptId": "c-1fdfd209",
+      "conceptName": "Recursion Fundamentals",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Detected foundational gap in call stack unwind behavior during DFS practice.",
+      "timestamp": "2026-08-22T08:27:30.534Z"
+    },
+    {
+      "id": "9a236ce0-5c34-444d-b7ff-7a33a82052db",
+      "conceptId": "c-472684c6",
+      "conceptName": "Depth-First Search (DFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 0,
+      "triggerType": "QUIZ",
+      "reason": "Struggled with recursion call stack and cycle backtracking in quiz attempt.",
+      "timestamp": "2026-08-22T08:27:30.530Z"
+    },
+    {
+      "id": "e76bb465-01fb-44f2-9840-809ea77856ef",
+      "conceptId": "c-8d60e4b4",
+      "conceptName": "Breadth-First Search (BFS)",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "INTRODUCED",
+      "previousMastery": 0,
+      "newMastery": 4,
+      "triggerType": "SPACED_DECAY",
+      "reason": "Flashcard recall rated: 4/4 (Next review in 1 days)",
+      "timestamp": "2026-08-22T08:27:30.520Z"
+    },
+    {
+      "id": "4db42452-092f-4f45-95a5-740aada2d086",
+      "conceptId": "c-fund-eaec",
+      "conceptName": "Core Foundations",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "previousState": "UNKNOWN",
+      "newState": "DEVELOPING",
+      "previousMastery": 0,
+      "newMastery": 40,
+      "triggerType": "QUIZ",
+      "reason": "Passed assessment quiz",
+      "timestamp": "2026-08-22T08:27:25.502Z"
+    },
     {
       "id": "18246e0e-d5e8-4216-bc04-a86a611d4eaa",
       "conceptId": "c-76465f39",
@@ -6706,6 +8034,341 @@
       "updatedAt": "2026-08-22T08:20:28.254Z",
       "lastAdaptedAt": "2026-08-22T08:20:28.254Z",
       "activeAdaptationNotice": "⚡ Roadmap Adapted (v2): Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\". (User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.)"
+    },
+    {
+      "id": "6ef3adb4-9c47-4170-b145-d0eec8ba9a2a",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "title": "Distributed Systems & Consensus Roadmap",
+      "version": 2,
+      "summary": "Personalized 4-week roadmap for Distributed Systems & Consensus",
+      "totalEstimatedHours": 24,
+      "milestones": [
+        {
+          "id": "m-g1",
+          "roadmapId": "rm-g1",
+          "weekNumber": 1,
+          "title": "Phase 1: Fundamentals & Core Mental Models",
+          "description": "Establish foundational principles and terminology.",
+          "targetConcepts": [
+            "Foundations",
+            "Terminology"
+          ],
+          "status": "ACTIVE",
+          "orderIndex": 0,
+          "modules": [
+            {
+              "id": "mod-injected-1787387250537",
+              "milestoneId": "m-g1",
+              "title": "Recursion & DFS Call Stack Prerequisites Refresher",
+              "description": "Targeted review of core invariants and foundation principles for Recursion & DFS Call Stack.",
+              "estimatedMinutes": 35,
+              "conceptIds": [
+                "c-injected-1"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [],
+              "formatType": "CODING",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Triggered by gap detection: User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-injected-prac-1787387250537",
+              "milestoneId": "m-g1",
+              "title": "Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises",
+              "description": "Hands-on practice problems with step-by-step invariant validation.",
+              "estimatedMinutes": 40,
+              "conceptIds": [
+                "c-injected-2"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [
+                "Recursion & DFS Call Stack"
+              ],
+              "formatType": "PRACTICE",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Reinforce mechanics through targeted deliberate practice.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-g1",
+              "milestoneId": "m-g1",
+              "title": "Core Concepts & Overview",
+              "description": "Deep dive into fundamental mechanisms.",
+              "estimatedMinutes": 45,
+              "conceptIds": [
+                "cg-1"
+              ],
+              "conceptNames": [
+                "Foundations"
+              ],
+              "dependencies": [],
+              "formatType": "VIDEO",
+              "whyReason": "Essential foundation.",
+              "status": "IN_PROGRESS"
+            }
+          ]
+        }
+      ],
+      "adaptationCount": 1,
+      "createdAt": "2026-08-22T08:27:30.536Z",
+      "updatedAt": "2026-08-22T08:27:30.537Z",
+      "lastAdaptedAt": "2026-08-22T08:27:30.537Z",
+      "activeAdaptationNotice": "⚡ Roadmap Adapted (v2): Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\". (User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.)"
+    },
+    {
+      "id": "a6d1e285-d7fe-4308-8659-698b79acee9d",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "title": "Distributed Systems & Consensus Roadmap",
+      "version": 3,
+      "summary": "Personalized 4-week roadmap tailored for designing fault-tolerant distributed storage systems, focusing on consensus protocols, replication strategies, and system reliability",
+      "totalEstimatedHours": 16,
+      "milestones": [
+        {
+          "weekNumber": 1,
+          "title": "Distributed Systems Fundamentals",
+          "description": "Understand core concepts, challenges, and architectural patterns in distributed systems",
+          "targetConcepts": [
+            "CAP Theorem",
+            "Consistency Models",
+            "Replication Strategies",
+            "Fault Tolerance Basics"
+          ],
+          "modules": [
+            {
+              "id": "mod-injected-1787387543129",
+              "title": "Recursion & DFS Call Stack Prerequisites Refresher",
+              "description": "Targeted review of core invariants and foundation principles for Recursion & DFS Call Stack.",
+              "estimatedMinutes": 35,
+              "conceptIds": [
+                "c-injected-1"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [],
+              "formatType": "CODING",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Triggered by gap detection: User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-injected-prac-1787387543129",
+              "title": "Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises",
+              "description": "Hands-on practice problems with step-by-step invariant validation.",
+              "estimatedMinutes": 40,
+              "conceptIds": [
+                "c-injected-2"
+              ],
+              "conceptNames": [
+                "Recursion & DFS Call Stack"
+              ],
+              "dependencies": [
+                "Recursion & DFS Call Stack"
+              ],
+              "formatType": "PRACTICE",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Reinforce mechanics through targeted deliberate practice.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-injected-1787387543103",
+              "title": "Consensus Invariants Prerequisites Refresher",
+              "description": "Targeted review of core invariants and foundation principles for Consensus Invariants.",
+              "estimatedMinutes": 35,
+              "conceptIds": [
+                "c-injected-1"
+              ],
+              "conceptNames": [
+                "Consensus Invariants"
+              ],
+              "dependencies": [],
+              "formatType": "CODING",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Triggered by gap detection: User struggled on raft leader election invariants.",
+              "status": "TODO"
+            },
+            {
+              "id": "mod-injected-prac-1787387543103",
+              "title": "Guided Practice: Step-by-Step Consensus Invariants Exercises",
+              "description": "Hands-on practice problems with step-by-step invariant validation.",
+              "estimatedMinutes": 40,
+              "conceptIds": [
+                "c-injected-2"
+              ],
+              "conceptNames": [
+                "Consensus Invariants"
+              ],
+              "dependencies": [
+                "Consensus Invariants"
+              ],
+              "formatType": "PRACTICE",
+              "isPrerequisiteInjection": true,
+              "whyReason": "Reinforce mechanics through targeted deliberate practice.",
+              "status": "TODO"
+            },
+            {
+              "title": "Introduction to Distributed Systems",
+              "description": "Explore fundamental concepts, challenges, and design principles of distributed systems",
+              "estimatedMinutes": 60,
+              "conceptNames": [
+                "CAP Theorem",
+                "Consistency Models"
+              ],
+              "dependencies": [],
+              "formatType": "THEORY",
+              "whyReason": "Foundation needed to understand trade-offs in distributed storage system design."
+            },
+            {
+              "title": "Replication and Fault Tolerance",
+              "description": "Learn replication strategies and basic fault tolerance mechanisms",
+              "estimatedMinutes": 60,
+              "conceptNames": [
+                "Replication Strategies",
+                "Fault Tolerance Basics"
+              ],
+              "dependencies": [
+                "CAP Theorem",
+                "Consistency Models"
+              ],
+              "formatType": "THEORY",
+              "whyReason": "Essential for designing systems that remain operational despite node failures."
+            }
+          ]
+        },
+        {
+          "weekNumber": 2,
+          "title": "Consensus Protocols",
+          "description": "Master key consensus algorithms including Paxos and Raft",
+          "targetConcepts": [
+            "Paxos",
+            "Raft",
+            "Leader Election",
+            "Log Replication"
+          ],
+          "modules": [
+            {
+              "title": "Paxos Algorithm Deep Dive",
+              "description": "Study the theoretical foundations and practical applications of Paxos",
+              "estimatedMinutes": 90,
+              "conceptNames": [
+                "Paxos"
+              ],
+              "dependencies": [
+                "Replication Strategies"
+              ],
+              "formatType": "THEORY",
+              "whyReason": "Core consensus algorithm for achieving agreement in distributed systems."
+            },
+            {
+              "title": "Raft Consensus Algorithm",
+              "description": "Implement and understand the Raft consensus protocol through hands-on exercises",
+              "estimatedMinutes": 90,
+              "conceptNames": [
+                "Raft",
+                "Leader Election",
+                "Log Replication"
+              ],
+              "dependencies": [
+                "Paxos"
+              ],
+              "formatType": "CODING",
+              "whyReason": "Practical consensus implementation that's more understandable than Paxos for real-world systems."
+            }
+          ]
+        },
+        {
+          "weekNumber": 3,
+          "title": "Distributed Storage Systems",
+          "description": "Design and analyze distributed storage architectures with focus on consistency and availability",
+          "targetConcepts": [
+            "Distributed Hash Tables",
+            "Quorum Systems",
+            "Vector Clocks",
+            "Conflict Resolution"
+          ],
+          "modules": [
+            {
+              "title": "Distributed Hash Tables (DHTs)",
+              "description": "Learn about consistent hashing and distributed key-value stores",
+              "estimatedMinutes": 60,
+              "conceptNames": [
+                "Distributed Hash Tables"
+              ],
+              "dependencies": [
+                "Log Replication"
+              ],
+              "formatType": "THEORY",
+              "whyReason": "Key technique for building scalable distributed storage systems."
+            },
+            {
+              "title": "Quorum Systems and Consistency",
+              "description": "Implement quorum-based consistency models and conflict resolution strategies",
+              "estimatedMinutes": 60,
+              "conceptNames": [
+                "Quorum Systems",
+                "Vector Clocks",
+                "Conflict Resolution"
+              ],
+              "dependencies": [
+                "Distributed Hash Tables"
+              ],
+              "formatType": "CODING",
+              "whyReason": "Essential for maintaining data consistency across distributed storage nodes."
+            }
+          ]
+        },
+        {
+          "weekNumber": 4,
+          "title": "Advanced Topics and System Design",
+          "description": "Apply knowledge to design comprehensive fault-tolerant storage systems",
+          "targetConcepts": [
+            "Two-Phase Commit",
+            "Three-Phase Commit",
+            "Byzantine Fault Tolerance",
+            "System Design Patterns"
+          ],
+          "modules": [
+            {
+              "title": "Distributed Transactions",
+              "description": "Study two-phase and three-phase commit protocols for distributed transactions",
+              "estimatedMinutes": 60,
+              "conceptNames": [
+                "Two-Phase Commit",
+                "Three-Phase Commit"
+              ],
+              "dependencies": [
+                "Conflict Resolution"
+              ],
+              "formatType": "THEORY",
+              "whyReason": "Critical for ensuring atomicity across distributed storage operations."
+            },
+            {
+              "title": "Fault-Tolerant Storage System Design",
+              "description": "Design a complete fault-tolerant distributed storage system integrating all concepts",
+              "estimatedMinutes": 120,
+              "conceptNames": [
+                "Byzantine Fault Tolerance",
+                "System Design Patterns"
+              ],
+              "dependencies": [
+                "Three-Phase Commit"
+              ],
+              "formatType": "PROJECT",
+              "whyReason": "Capstone project applying all learned concepts to build a production-ready design."
+            }
+          ]
+        }
+      ],
+      "adaptationCount": 2,
+      "createdAt": "2026-08-22T08:32:23.101Z",
+      "updatedAt": "2026-08-22T08:32:23.129Z",
+      "lastAdaptedAt": "2026-08-22T08:32:23.129Z",
+      "activeAdaptationNotice": "⚡ Roadmap Adapted (v3): Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\". (User struggled with recursive call stack frames during DFS traversal. Injected prerequisite refresher and rescheduled Dijkstra.)"
     }
   ],
   "dailyPlans": [
@@ -6996,6 +8659,92 @@
       "progressPercentage": 0,
       "createdAt": "2026-08-22T08:05:39.095Z",
       "weakAreaFocus": "Recursion Fundamentals & DFS"
+    },
+    {
+      "id": "8e61940b-2f52-46ad-885b-45cefe5780f8",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "date": "2026-08-22",
+      "availableMinutes": 45,
+      "items": [
+        {
+          "id": "item-adapt-1",
+          "order": 1,
+          "title": "Recursion Call Stack Refresher",
+          "conceptName": "Recursion Fundamentals",
+          "estimatedMinutes": 15,
+          "type": "REVIEW",
+          "status": "PENDING",
+          "whyReason": "Detected gap in recursion call stack dynamics during recent DFS quiz. Essential prerequisite for traversal algorithms."
+        },
+        {
+          "id": "item-adapt-2",
+          "order": 2,
+          "title": "DFS Stack Visualization & 2 Guided Problems",
+          "conceptName": "Depth-First Search (DFS)",
+          "estimatedMinutes": 20,
+          "type": "PRACTICE",
+          "status": "PENDING",
+          "whyReason": "Replaces abstract reading with guided step-by-step code drills."
+        },
+        {
+          "id": "item-adapt-3",
+          "order": 3,
+          "title": "Flashcard Recall: Graph Invariants",
+          "estimatedMinutes": 10,
+          "type": "FLASHCARDS",
+          "status": "PENDING",
+          "whyReason": "Daily spaced repetition for long-term retention."
+        }
+      ],
+      "summary": "Plan adapted! Today’s focus shifted to securing Recursion fundamentals before advancing.",
+      "weakAreaFocus": "Recursion Fundamentals & DFS",
+      "isOnTrack": true,
+      "progressPercentage": 25,
+      "createdAt": "2026-08-22T08:27:30.504Z"
+    },
+    {
+      "id": "fb75e210-5980-42d5-9933-60092831d815",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "date": "2026-08-22",
+      "availableMinutes": 45,
+      "items": [
+        {
+          "id": "item-adapt-1",
+          "order": 1,
+          "title": "Recursion Call Stack Refresher",
+          "conceptName": "Recursion Fundamentals",
+          "estimatedMinutes": 15,
+          "type": "REVIEW",
+          "status": "PENDING",
+          "whyReason": "Detected gap in recursion call stack dynamics during recent DFS quiz. Essential prerequisite for traversal algorithms."
+        },
+        {
+          "id": "item-adapt-2",
+          "order": 2,
+          "title": "DFS Stack Visualization & 2 Guided Problems",
+          "conceptName": "Depth-First Search (DFS)",
+          "estimatedMinutes": 20,
+          "type": "PRACTICE",
+          "status": "PENDING",
+          "whyReason": "Replaces abstract reading with guided step-by-step code drills."
+        },
+        {
+          "id": "item-adapt-3",
+          "order": 3,
+          "title": "Flashcard Recall: Graph Invariants",
+          "estimatedMinutes": 10,
+          "type": "FLASHCARDS",
+          "status": "PENDING",
+          "whyReason": "Daily spaced repetition for long-term retention."
+        }
+      ],
+      "summary": "Plan adapted! Today’s focus shifted to securing Recursion fundamentals before advancing.",
+      "weakAreaFocus": "Recursion Fundamentals & DFS",
+      "isOnTrack": true,
+      "progressPercentage": 25,
+      "createdAt": "2026-08-22T08:32:23.106Z"
     }
   ],
   "tasks": [
@@ -7253,6 +9002,36 @@
       "backlinks": [],
       "createdAt": "2026-08-22T07:13:18.416Z",
       "updatedAt": "2026-08-22T07:13:18.416Z"
+    },
+    {
+      "id": "e768a1e6-0c45-473a-93c1-e8618e31ec40",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "title": "Consensus Protocol Notes",
+      "markdownContent": "#DistributedSystems #Raft Raft maintains a replicated state machine across nodes with quorum voting.",
+      "extractedConcepts": [
+        "DistributedSystems",
+        "Raft"
+      ],
+      "suggestedConnections": [],
+      "backlinks": [],
+      "createdAt": "2026-08-22T08:27:30.523Z",
+      "updatedAt": "2026-08-22T08:27:30.523Z"
+    },
+    {
+      "id": "c1833cbc-31ab-455b-a557-7d0638e7fc85",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "title": "Consensus Protocol Notes",
+      "markdownContent": "#DistributedSystems #Raft Raft maintains a replicated state machine across nodes with quorum voting.",
+      "extractedConcepts": [
+        "DistributedSystems",
+        "Raft"
+      ],
+      "suggestedConnections": [],
+      "backlinks": [],
+      "createdAt": "2026-08-22T08:32:23.117Z",
+      "updatedAt": "2026-08-22T08:32:23.117Z"
     }
   ],
   "inbox": [
@@ -7366,6 +9145,38 @@
         "url"
       ],
       "createdAt": "2026-08-22T07:13:18.418Z"
+    },
+    {
+      "id": "a344ceda-27c5-4043-8791-0a4bd709d4cd",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "type": "URL",
+      "title": "Raft Consensus Paper",
+      "content": "In Search of an Understandable Consensus Algorithm",
+      "url": "https://raft.github.io/raft.pdf",
+      "triageStatus": "PROCESSED",
+      "aiSuggestedGoalTitle": "Distributed Systems & Consensus",
+      "aiSummary": "Captured url resource organized for Distributed Systems & Consensus.",
+      "tags": [
+        "url"
+      ],
+      "createdAt": "2026-08-22T08:27:30.525Z"
+    },
+    {
+      "id": "d960fe32-9274-4189-8cfb-b4a08df55c0a",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "type": "URL",
+      "title": "Raft Consensus Paper",
+      "content": "In Search of an Understandable Consensus Algorithm",
+      "url": "https://raft.github.io/raft.pdf",
+      "triageStatus": "PROCESSED",
+      "aiSuggestedGoalTitle": "Distributed Systems & Consensus",
+      "aiSummary": "Captured url resource organized for Distributed Systems & Consensus.",
+      "tags": [
+        "url"
+      ],
+      "createdAt": "2026-08-22T08:32:23.119Z"
     }
   ],
   "questions": [
@@ -11726,9 +13537,445 @@
         }
       ],
       "createdAt": "2026-08-22T08:21:00.806Z"
+    },
+    {
+      "id": "7c4714f9-c2e0-4957-99dc-2ad3182521ef",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-7839",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-5e3b",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-e56b",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-2ba5",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:27:30.540Z"
+    },
+    {
+      "id": "f77de5fb-a64b-4413-af28-45c1acb03e37",
+      "goalId": "20354332-efbb-4a76-a371-c501d1df31ea",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-b3af",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-2e32",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-97e9",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-be2d",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:31:16.328Z"
+    },
+    {
+      "id": "c81661dd-574f-4c58-9919-d6f9ac880d18",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-e0cb",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-90a6",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-2557",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-aee4",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:32:23.133Z"
+    },
+    {
+      "id": "fc701b15-9d78-4fca-acf3-c6cc03180191",
+      "goalId": "96a57414-a729-432e-bc9a-4dcdc367159b",
+      "title": "CONCEPT Quiz: Graph Algorithms",
+      "mode": "CONCEPT",
+      "targetConceptNames": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra & Shortest Paths",
+        "Graph Representation"
+      ],
+      "questions": [
+        {
+          "id": "qq-bfs-ebe3",
+          "conceptId": "c-bfs",
+          "conceptName": "Breadth-First Search (BFS)",
+          "questionText": "In a graph with unweighted edges, why does BFS guarantee finding the shortest path between start and target?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "BFS expands uniformly layer-by-layer; any node encountered at layer K cannot have a path shorter than K.",
+            "BFS uses a min-heap to sort edges by weight dynamically.",
+            "Because BFS backtracks upon reaching dead ends.",
+            "BFS visits vertices in alphabetical or index order."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Layer-by-layer (FIFO queue) traversal guarantees the first time a vertex is popped, the shortest unweighted distance is achieved.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-dfs-9225",
+          "conceptId": "c-dfs",
+          "conceptName": "Depth-First Search (DFS)",
+          "questionText": "What is the consequence of omitting the \"visited\" set check in a recursive DFS traversal of an undirected cyclic graph?",
+          "questionType": "CONCEPT_EXPLANATION",
+          "options": [
+            "Infinite recursion leading to a Call Stack Overflow exception.",
+            "The traversal will terminate too early.",
+            "The time complexity improves to O(V).",
+            "The output order will automatically be topological."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "In cyclic graphs, visiting an adjacent node without checking visited will recursively call the parent node again, causing infinite recursion.",
+          "difficulty": "BEGINNER"
+        },
+        {
+          "id": "qq-dijkstra-9be0",
+          "conceptId": "c-dijkstra",
+          "conceptName": "Dijkstra & Shortest Paths",
+          "questionText": "Why does Dijkstra’s algorithm produce incorrect shortest paths in graphs with negative edge weights?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Dijkstra greedily marks a node as finalized once extracted from the priority queue, assuming no future edge could reduce its distance.",
+            "Because Priority Queues in standard libraries throw runtime exceptions on negative numbers.",
+            "Dijkstra only works on tree data structures.",
+            "Negative edges invert the directed nature of graph edges."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The greedy choice property in Dijkstra relies on edge weights being >= 0. Negative edges violate the assumption that settled distances are optimal.",
+          "difficulty": "INTERMEDIATE"
+        },
+        {
+          "id": "qq-rep-6b76",
+          "conceptId": "c-rep",
+          "conceptName": "Graph Representation",
+          "questionText": "For a graph with 10,000 vertices and only 20,000 edges, which representation is vastly superior in memory usage?",
+          "questionType": "MULTIPLE_CHOICE",
+          "options": [
+            "Adjacency List (~O(V + E) = 30k elements vs Matrix O(V²) = 100M elements)",
+            "Adjacency Matrix (uses 100M entries to allow O(1) edge lookup regardless of memory)",
+            "Adjacency Matrix uses less memory because it uses booleans",
+            "Both use identical memory space"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Adjacency list uses O(V + E) space, which requires negligible memory compared to the 100,000,000 entries of an Adjacency Matrix.",
+          "difficulty": "BEGINNER"
+        }
+      ],
+      "createdAt": "2026-08-22T08:32:23.182Z"
     }
   ],
   "quizAttempts": [
+    {
+      "id": "5cda555f-3bed-45e0-bc60-67490a6c7ad6",
+      "quizId": "c81661dd-574f-4c58-9919-d6f9ac880d18",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "score": 1,
+      "maxScore": 4,
+      "percentage": 25,
+      "userAnswers": [
+        {
+          "questionId": "qq-bfs-e0cb",
+          "selectedOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "qq-dfs-90a6",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "qq-dijkstra-2557",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "qq-rep-aee4",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        }
+      ],
+      "conceptBreakdown": [
+        {
+          "conceptName": "Breadth-First Search (BFS)",
+          "correctCount": 1,
+          "totalCount": 1,
+          "statusChangedTo": "LEARNING"
+        },
+        {
+          "conceptName": "Depth-First Search (DFS)",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        },
+        {
+          "conceptName": "Dijkstra & Shortest Paths",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        },
+        {
+          "conceptName": "Graph Representation",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        }
+      ],
+      "misconceptions": [],
+      "feedback": "Good effort! Review the missed concepts above and check the updated daily learning plan for targeted reinforcement.",
+      "timestamp": "2026-08-22T08:32:23.148Z"
+    },
+    {
+      "id": "54bf06af-7d0a-4f4b-a2e0-69e8c5c75b23",
+      "quizId": "7c4714f9-c2e0-4957-99dc-2ad3182521ef",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "score": 1,
+      "maxScore": 4,
+      "percentage": 25,
+      "userAnswers": [
+        {
+          "questionId": "qq-bfs-7839",
+          "selectedOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "qq-dfs-5e3b",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "qq-dijkstra-e56b",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "qq-rep-2ba5",
+          "selectedOptionIndex": -1,
+          "isCorrect": false
+        }
+      ],
+      "conceptBreakdown": [
+        {
+          "conceptName": "Breadth-First Search (BFS)",
+          "correctCount": 1,
+          "totalCount": 1,
+          "statusChangedTo": "LEARNING"
+        },
+        {
+          "conceptName": "Depth-First Search (DFS)",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        },
+        {
+          "conceptName": "Dijkstra & Shortest Paths",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        },
+        {
+          "conceptName": "Graph Representation",
+          "correctCount": 0,
+          "totalCount": 1,
+          "statusChangedTo": "UNKNOWN"
+        }
+      ],
+      "misconceptions": [],
+      "feedback": "Good effort! Review the missed concepts above and check the updated daily learning plan for targeted reinforcement.",
+      "timestamp": "2026-08-22T08:27:30.552Z"
+    },
     {
       "id": "ab9efd87-228b-4085-a0b1-71f2ec1a8980",
       "quizId": "c78611d3-3457-4433-a1c4-385fbd4d509a",
@@ -12250,6 +14497,120 @@
       "repetitions": 0,
       "nextReviewDate": "2026-08-22",
       "createdAt": "2026-08-22T08:05:41.784Z"
+    },
+    {
+      "id": "09463a06-95af-49f3-ad83-e85eb2f7a982",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "conceptName": "Breadth-First Search (BFS)",
+      "source": "CONCEPT",
+      "front": "What abstract data structure is used to maintain order in BFS, and why?",
+      "back": "A Queue (FIFO) is used so that vertices are explored level by level in order of distance from the source.",
+      "intervalDays": 1,
+      "easeFactor": 260,
+      "repetitions": 1,
+      "nextReviewDate": "2026-08-23",
+      "createdAt": "2026-08-22T08:27:30.511Z",
+      "lastReviewedAt": "2026-08-22T08:27:30.514Z"
+    },
+    {
+      "id": "5990706d-2d19-4f13-a20d-1bba24c3ccf2",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "conceptName": "Depth-First Search (DFS)",
+      "source": "CONCEPT",
+      "front": "What is the standard time and space complexity of recursive DFS on an Adjacency List?",
+      "back": "Time: O(V + E)\nSpace: O(V) in the worst case for the recursion call stack.",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:27:30.511Z"
+    },
+    {
+      "id": "9eec689a-18e4-4909-8403-eca321c37a20",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "source": "QUIZ_MISTAKE",
+      "front": "Under what condition does Dijkstra fail to find the shortest path?",
+      "back": "When edges have negative weights or negative cycles, because Dijkstra greedily assumes finalized distances cannot decrease.",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:27:30.511Z"
+    },
+    {
+      "id": "d06ef832-5280-401f-a599-388df3f3abc2",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "conceptName": "Graph Representation",
+      "source": "CONCEPT",
+      "front": "What is the space complexity difference between an Adjacency Matrix and an Adjacency List?",
+      "back": "Adjacency Matrix: O(V²)\nAdjacency List: O(V + E)",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:27:30.511Z"
+    },
+    {
+      "id": "74f877ff-6419-43be-ba9a-8e574e1ff848",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "conceptName": "Breadth-First Search (BFS)",
+      "source": "CONCEPT",
+      "front": "What abstract data structure is used to maintain order in BFS, and why?",
+      "back": "A Queue (FIFO) is used so that vertices are explored level by level in order of distance from the source.",
+      "intervalDays": 1,
+      "easeFactor": 260,
+      "repetitions": 1,
+      "nextReviewDate": "2026-08-23",
+      "createdAt": "2026-08-22T08:32:23.110Z",
+      "lastReviewedAt": "2026-08-22T08:32:23.111Z"
+    },
+    {
+      "id": "b865231e-0b9e-4005-92b1-a77c485b7491",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "conceptName": "Depth-First Search (DFS)",
+      "source": "CONCEPT",
+      "front": "What is the standard time and space complexity of recursive DFS on an Adjacency List?",
+      "back": "Time: O(V + E)\nSpace: O(V) in the worst case for the recursion call stack.",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:32:23.110Z"
+    },
+    {
+      "id": "185f8d2c-5fcd-4c67-98b1-4e460082d480",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "conceptName": "Dijkstra & Shortest Paths",
+      "source": "QUIZ_MISTAKE",
+      "front": "Under what condition does Dijkstra fail to find the shortest path?",
+      "back": "When edges have negative weights or negative cycles, because Dijkstra greedily assumes finalized distances cannot decrease.",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:32:23.110Z"
+    },
+    {
+      "id": "f419cbd5-658d-430b-a5a1-090e6070e231",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "conceptName": "Graph Representation",
+      "source": "CONCEPT",
+      "front": "What is the space complexity difference between an Adjacency Matrix and an Adjacency List?",
+      "back": "Adjacency Matrix: O(V²)\nAdjacency List: O(V + E)",
+      "intervalDays": 1,
+      "easeFactor": 250,
+      "repetitions": 0,
+      "nextReviewDate": "2026-08-22",
+      "createdAt": "2026-08-22T08:32:23.110Z"
     }
   ],
   "teachBackSessions": [
@@ -12489,6 +14850,45 @@
     }
   ],
   "adaptiveEvents": [
+    {
+      "id": "41b3a1c9-6694-4e63-941e-e880a077a847",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "triggerType": "QUIZ_GAP",
+      "detectedGapConcept": "Recursion & DFS Call Stack",
+      "adjustmentsSummary": "Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\".",
+      "details": [
+        "Added \"Recursion & DFS Call Stack Prerequisites Refresher\" (35 min)",
+        "Added \"Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises\" (40 min)"
+      ],
+      "timestamp": "2026-08-22T08:32:23.130Z"
+    },
+    {
+      "id": "d6b5a0d3-70da-45b8-a639-acbd71359dd0",
+      "goalId": "972f9715-2803-47f4-8040-baaff31b3913",
+      "userId": "7ffb823d-497d-4f8e-bc99-944bd2db91aa",
+      "triggerType": "QUIZ_GAP",
+      "detectedGapConcept": "Consensus Invariants",
+      "adjustmentsSummary": "Injected prerequisite refresher and guided practice for \"Consensus Invariants\".",
+      "details": [
+        "Added \"Consensus Invariants Prerequisites Refresher\" (35 min)",
+        "Added \"Guided Practice: Step-by-Step Consensus Invariants Exercises\" (40 min)"
+      ],
+      "timestamp": "2026-08-22T08:32:23.104Z"
+    },
+    {
+      "id": "1394fbcb-7d42-4597-93ad-55c4632a9bff",
+      "goalId": "eaecc914-d501-459e-a41c-fd04e76136ee",
+      "userId": "94b30644-52b7-4e9c-a40c-e62307ef3aec",
+      "triggerType": "QUIZ_GAP",
+      "detectedGapConcept": "Recursion & DFS Call Stack",
+      "adjustmentsSummary": "Injected prerequisite refresher and guided practice for \"Recursion & DFS Call Stack\".",
+      "details": [
+        "Added \"Recursion & DFS Call Stack Prerequisites Refresher\" (35 min)",
+        "Added \"Guided Practice: Step-by-Step Recursion & DFS Call Stack Exercises\" (40 min)"
+      ],
+      "timestamp": "2026-08-22T08:27:30.538Z"
+    },
     {
       "id": "af2e4df6-b587-468c-ac0c-07dfcf237507",
       "goalId": "5c0553f3-4846-4bf6-bf24-900e93aa13ff",
